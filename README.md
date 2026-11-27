@@ -9,6 +9,14 @@
 
 <sub>▲ 先前實際產生的範例短片畫格（使用合成的「夜間演唱會」範例素材，經 Claude 分析、FFmpeg 合成）</sub>
 
+<br><br>
+
+<a href="https://memory-aipost.up.railway.app/studio"><img src="https://img.shields.io/badge/%E2%96%B6%20%E7%AB%8B%E5%8D%B3%E9%AB%94%E9%A9%97%20MEmory-memory--aipost.up.railway.app-E8B04B?style=for-the-badge&labelColor=1a1a1a" alt="立即體驗 MEmory" height="44"></a>
+
+**👉 [https://memory-aipost.up.railway.app/studio](https://memory-aipost.up.railway.app/studio)**
+
+不用安裝、不用登入：選範例素材或上傳自己的照片，寫一句話，約 1 分鐘產生你的回憶短片。
+
 </div>
 
 ---
@@ -100,10 +108,13 @@ flowchart TD
 
 ## 試用方式
 
-- 網址與評審通行碼請見投稿表單的「作品交付連結／測試方式」。用表單裡的完整連結打開，通行碼會自動帶入。
-- 沒有通行碼也能看頁面上預先產生的範例短片（頁面上有標示）。
-- 步驟：打開連結 → 選範例素材，或上傳 2–8 張照片／短影片 → 寫一句心得、選語氣 → 勾選同意 → 約 1 分鐘後預覽並下載。
+**線上體驗：[https://memory-aipost.up.railway.app/studio](https://memory-aipost.up.railway.app/studio)**（手機或電腦都可以，不需要帳號）
 
+1. 選「範例素材」，或上傳 2–8 張自己的照片／短影片。
+2. 寫一句當下的感受，選一種語氣。
+3. 勾選同意，按「產生我的記憶短片」。約 1 分鐘後就能預覽並下載。
+
+主辦方文件流程（`/organizer`）需要主辦方權杖，請參考上方的截圖與 Demo 影片。
 
 ## What's Next
 
