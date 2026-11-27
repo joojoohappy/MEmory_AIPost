@@ -1,0 +1,34 @@
+{
+  "executed_at": "2026-11-27T09:54:30.367Z",
+  "input": "B-mountain-market-brief.pdf",
+  "documentParsing": {
+    "operation": "documentParsing",
+    "endpoint": "https://api-server.compdf.com/server/v2/process/idp/documentParsing",
+    "started_at": "2026-11-27T09:54:22.827Z",
+    "latency_ms": 7188,
+    "http_status": 200,
+    "api_code": "200",
+    "task_id": "705f0586-0d13-4ea3-9b43-072f0be40948",
+    "file_status": "success",
+    "result_bytes": 2032,
+    "result_type": "application/octet-stream",
+    "outcome": "error",
+    "error": "zip_result_unsupported",
+    "flattened_preview": ""
+  },
+  "documentExtract": {
+    "operation": "documentExtract",
+    "endpoint": "https://api-server.compdf.com/server/v2/process/idp/documentExtract",
+    "started_at": "2026-11-27T09:54:30.016Z",
+    "latency_ms": 351,
+    "http_status": 200,
+    "api_code": "03000",
+    "task_id": null,
+    "file_status": null,
+    "result_bytes": null,
+    "result_type": null,
+    "outcome": "error",
+    "error": "api:03000:参数校验异常",
+    "flattened_preview": ""
+  }
+}

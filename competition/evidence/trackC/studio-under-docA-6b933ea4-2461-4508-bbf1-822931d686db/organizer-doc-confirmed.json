@@ -1,0 +1,282 @@
+{
+  "id": "a3ee1b56-a269-4a56-826d-eb750927f56e",
+  "created_at": "2026-11-27T10:07:56.056694Z",
+  "file_name": "A-city-glow-proposal-license-DRAFT.pdf",
+  "bytes": 0,
+  "status": "imported",
+  "compdf": [],
+  "extracted_excerpt": "[第 1 頁] # 「城市夜光音樂節 2026」 MEMory 合作提案暨內容授權書\n[第 1 頁] 文件編號：MEM-TEST-2026-001 版本：v0.9 草稿\n[第 1 頁] ## 一、活動資訊\n[第 1 頁] 活動名稱：城市夜光音樂節 2026 (City Glow Night Festival 2026)\n[第 1 頁] 主辦單位：夜光文化有限公司（虛構）\n[第 1 頁] 活動日期：2026年12月5日（星期六）至2026年12月6日（星期日）\n[第 1 頁] 地點：台北河岸音樂廣場（虛構場地）\n[第 1 頁] 活動說明：兩天的戶外夜間音樂節，包含主舞台演出、燈光裝置與市集。主辦方希望讓參加者用自己拍的照片與影片，生成個人化的記憶短片作為紀念。\n[第 1 頁] ## 二、活動時程\n[第 1 頁] 時間 | 內容；12/5 17:00 | 開放入場、市集開始；12/5 19:00 | 主舞台演出；12/5 21:30 | 燈光裝置秀；12/6 16:00 | 日間市集；12/6 20:00 | 閉幕演出\n[第 1 頁] ## 三、內容使用授權\n[第 1 頁] 3.1 參加者於活動現場自行拍攝之照片，得用於 MEMORY 生成個人記憶短片。\n[第 1 頁] 3.2 參加者自行拍攝之影片，得用於生成個人記憶短片；惟主舞台演出畫面每段不得超過 15 秒。\n[第 1 頁] 3.3 參加者得下載其個人記憶短片，供個人非商業保存使用。\n[第 1 頁] 3.4 生成之短片如欲公開分享於社群平台，原則上須另行取得主辦方書面同意。\n[第 1 頁] 3.5 任何商業用途均不在本授權範圍內。\n[第 1 頁] ## 四、生成服務期間\n[第 1 頁] 4.1 MEMory 生成服務開放期間為 2026 年 11 月 25 日起至 2026 年 12 月 31 日止（含測試期）。\n[第 1 頁] 第1頁\n[第 2 頁] #### 附件一：服務條件補充\n[第 2 頁] A1. 為控制成本，記憶短片生成服務之截止日為2026年12月20日。\n[第 2 頁] A2. 主辦方官方 Logo、官方攝影及音樂之使用方式，雙方另議。\n[第 2 頁] ## 五、簽署\n[第 2 頁] 甲方（主辦單位）代表人簽名：___ 日期：___\n[第 2 頁] 乙方（MEmory）代表人簽名：___ 日期：___\n[第 2 頁] 本文件為草稿，雙方簽署後生效。\n[第 2 頁] 第2頁",
+  "extracted_chars": 1037,
+  "ai_calls": [
+    {
+      "step": "document_interpretation",
+      "model": "claude-opus-5-5",
+      "request_id": "msg_011ChTEf9r3Yss1nuDD7WBfK",
+      "started_at": "2026-11-27T09:58:53.662Z",
+      "latency_ms": 21073,
+      "input_tokens": 5458,
+      "output_tokens": 2341,
+      "outcome": "ok"
+    }
+  ],
+  "proposal": {
+    "event_name": {
+      "value": "城市夜光音樂節 2026 (City Glow Night Festival 2026)",
+      "sources": [
+        {
+          "page": 1,
+          "quote": "活動名稱：城市夜光音樂節 2026 (City Glow Night Festival 2026)"
+        }
+      ]
+    },
+    "start_date": {
+      "value": "2026-12-05",
+      "sources": [
+        {
+          "page": 1,
+          "quote": "活動日期：2026年12月5日（星期六）至2026年12月6日（星期日）"
+        }
+      ]
+    },
+    "end_date": {
+      "value": "2026-12-06",
+      "sources": [
+        {
+          "page": 1,
+          "quote": "活動日期：2026年12月5日（星期六）至2026年12月6日（星期日）"
+        }
+      ]
+    },
+    "venue": {
+      "value": "台北河岸音樂廣場（虛構場地）",
+      "sources": [
+        {
+          "page": 1,
+          "quote": "地點：台北河岸音樂廣場（虛構場地）"
+        }
+      ]
+    },
+    "organizer": {
+      "value": "夜光文化有限公司（虛構）",
+      "sources": [
+        {
+          "page": 1,
+          "quote": "主辦單位：夜光文化有限公司（虛構）"
+        }
+      ]
+    },
+    "description": {
+      "value": "兩天的戶外夜間音樂節，包含主舞台演出、燈光裝置與市集。主辦方希望讓參加者用自己拍的照片與影片，生成個人化的記憶短片作為紀念。",
+      "sources": [
+        {
+          "page": 1,
+          "quote": "兩天的戶外夜間音樂節，包含主舞台演出、燈光裝置與市集。"
+        }
+      ]
+    },
+    "schedule": [
+      {
+        "time": "2026-12-05 17:00",
+        "item": "開放入場、市集開始",
+        "sources": []
+      },
+      {
+        "time": "2026-12-05 19:00",
+        "item": "主舞台演出",
+        "sources": []
+      },
+      {
+        "time": "2026-12-05 21:30",
+        "item": "燈光裝置秀",
+        "sources": []
+      },
+      {
+        "time": "2026-12-06 16:00",
+        "item": "日間市集",
+        "sources": []
+      },
+      {
+        "time": "2026-12-06 20:00",
+        "item": "閉幕演出",
+        "sources": []
+      }
+    ],
+    "generation_valid_from": {
+      "value": "2026-11-25",
+      "sources": [
+        {
+          "page": 1,
+          "quote": "MEMory 生成服務開放期間為 2026 年 11 月 25 日起至 2026 年 12 月 31 日止（含測試期）"
+        }
+      ]
+    },
+    "generation_valid_until": {
+      "value": null,
+      "sources": [
+        {
+          "page": null,
+          "quote": "至 2026 年 12 月 31 日止（含測試期）／記憶短片生成服務之截止日為2026年12月20日"
+        }
+      ]
+    },
+    "agreement_status": "draft",
+    "rights": {
+      "attendee_photos": {
+        "status": "allowed",
+        "note": "文件明確允許參加者於活動現場自行拍攝之照片用於生成個人記憶短片。",
+        "sources": [
+          {
+            "page": 1,
+            "quote": "3.1 參加者於活動現場自行拍攝之照片，得用於 MEMORY 生成個人記憶短片。"
+          }
+        ]
+      },
+      "attendee_videos": {
+        "status": "restricted",
+        "note": "允許使用，但附條件：主舞台演出畫面每段不得超過 15 秒。",
+        "sources": [
+          {
+            "page": 1,
+            "quote": "3.2 參加者自行拍攝之影片，得用於生成個人記憶短片；惟主舞台演出畫面每段不得超過 15 秒。"
+          }
+        ]
+      },
+      "personal_download": {
+        "status": "allowed",
+        "note": "明確允許下載，用途限於個人非商業保存。",
+        "sources": [
+          {
+            "page": 1,
+            "quote": "3.3 參加者得下載其個人記憶短片，供個人非商業保存使用。"
+          }
+        ]
+      },
+      "public_sharing": {
+        "status": "restricted",
+        "note": "公開分享須另行取得主辦方書面同意；用語「原則上」不明確，需人工確認。",
+        "sources": [
+          {
+            "page": 1,
+            "quote": "3.4 生成之短片如欲公開分享於社群平台，原則上須另行取得主辦方書面同意。"
+          }
+        ]
+      },
+      "commercial_use": {
+        "status": "restricted",
+        "note": "文件明確排除任何商業用途。",
+        "sources": [
+          {
+            "page": 1,
+            "quote": "3.5 任何商業用途均不在本授權範圍內。"
+          }
+        ]
+      },
+      "official_assets": {
+        "status": "unknown",
+        "note": "官方 Logo、攝影及音樂之使用方式標示「雙方另議」，尚未約定，不得視為已授權。",
+        "sources": [
+          {
+            "page": 2,
+            "quote": "A2. 主辦方官方 Logo、官方攝影及音樂之使用方式，雙方另議。"
+          }
+        ]
+      }
+    },
+    "issues": [
+      {
+        "kind": "conflict",
+        "field": "generation_valid_until",
+        "detail": "第 1 頁 4.1 載明生成服務至 2026-12-31 止，第 2 頁附件一 A1 載明截止日為 2026-12-20，兩者矛盾，需主辦方確認採用何者。",
+        "sources": [
+          {
+            "page": null,
+            "quote": "至 2026 年 12 月 31 日止（含測試期）／記憶短片生成服務之截止日為2026年12月20日"
+          }
+        ]
+      },
+      {
+        "kind": "ambiguous",
+        "field": "rights.public_sharing",
+        "detail": "「原則上須另行取得主辦方書面同意」用語模糊，未說明例外情形及同意取得方式。",
+        "sources": [
+          {
+            "page": 1,
+            "quote": "原則上須另行取得主辦方書面同意"
+          }
+        ]
+      },
+      {
+        "kind": "ambiguous",
+        "field": "rights.official_assets",
+        "detail": "官方 Logo、官方攝影及音樂之使用方式「雙方另議」，尚未有具體約定。",
+        "sources": [
+          {
+            "page": 2,
+            "quote": "A2. 主辦方官方 Logo、官方攝影及音樂之使用方式，雙方另議。"
+          }
+        ]
+      },
+      {
+        "kind": "approval_pending",
+        "field": "agreement_status",
+        "detail": "文件標示為 v0.9 草稿，甲乙雙方簽名與日期欄皆空白，須雙方簽署後才生效。",
+        "sources": [
+          {
+            "page": 2,
+            "quote": "本文件為草稿，雙方簽署後生效。"
+          }
+        ]
+      }
+    ]
+  },
+  "server_checks": [
+    "agreement_draft"
+  ],
+  "error": null,
+  "imported_event": {
+    "id": "doc-a3ee1b56",
+    "name": "城市夜光音樂節 2026 (City Glow Night Festival 2026)",
+    "start_date": "2026-12-05",
+    "end_date": "2026-12-06",
+    "venue": "台北河岸音樂廣場（虛構場地）",
+    "organizer": "夜光文化有限公司（虛構）",
+    "description": "兩天的戶外夜間音樂節，包含主舞台演出、燈光裝置與市集。主辦方希望讓參加者用自己拍的照片與影片，生成個人化的記憶短片作為紀念。",
+    "schedule": [
+      {
+        "time": "2026-12-05 17:00",
+        "item": "開放入場、市集開始"
+      },
+      {
+        "time": "2026-12-05 19:00",
+        "item": "主舞台演出"
+      },
+      {
+        "time": "2026-12-05 21:30",
+        "item": "燈光裝置秀"
+      },
+      {
+        "time": "2026-12-06 16:00",
+        "item": "日間市集"
+      },
+      {
+        "time": "2026-12-06 20:00",
+        "item": "閉幕演出"
+      }
+    ],
+    "generation_valid_from": "2026-11-25",
+    "generation_valid_until": "2026-12-20",
+    "permissions": {
+      "attendee_photos": true,
+      "attendee_videos": false,
+      "personal_download": true,
+      "public_sharing": false,
+      "commercial_use": false,
+      "official_assets": false
+    },
+    "source": "document",
+    "source_document": "A-city-glow-proposal-license-DRAFT.pdf",
+    "confirmed_at": "2026-11-27T10:08:22.162Z",
+    "confirmed_by_note": "replay of real ComPDF+Claude output; earlier end date chosen",
+    "activation": "active"
+  }
+}

@@ -1,0 +1,451 @@
+{
+    "result": {
+        "pages": [
+            {
+                "angle": 0,
+                "page_id": 1,
+                "image_id": "",
+                "height": 1684,
+                "width": 1191,
+                "durations": 0.003604412078857422,
+                "structured": [
+                    {
+                        "pos": [
+                            75,
+                            36,
+                            584,
+                            36,
+                            584,
+                            61,
+                            75,
+                            61
+                        ],
+                        "id": 0,
+                        "content": [
+                            0
+                        ],
+                        "text": "測試文件 TEST ONLY — 虛構活動，僅供 MEMory 競賽開發測試",
+                        "type": "header",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            124,
+                            135,
+                            614,
+                            135,
+                            614,
+                            175,
+                            124,
+                            175
+                        ],
+                        "id": 1,
+                        "content": [
+                            1
+                        ],
+                        "text": "# 「山城手作市集 2026」活動簡介",
+                        "type": "doc_title",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            106,
+                            196,
+                            377,
+                            196,
+                            377,
+                            224,
+                            106,
+                            224
+                        ],
+                        "id": 2,
+                        "content": [
+                            2
+                        ],
+                        "text": "主辦：山城手作協會（虛構）",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            107,
+                            231,
+                            374,
+                            231,
+                            374,
+                            257,
+                            107,
+                            257
+                        ],
+                        "id": 3,
+                        "content": [
+                            3
+                        ],
+                        "text": "日期：2026年12月12日",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            106,
+                            264,
+                            523,
+                            264,
+                            523,
+                            293,
+                            106,
+                            293
+                        ],
+                        "id": 4,
+                        "content": [
+                            4
+                        ],
+                        "text": "說明：一日手作市集，歡迎參加者拍照留念。",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            118,
+                            299,
+                            525,
+                            299,
+                            525,
+                            328,
+                            118,
+                            328
+                        ],
+                        "id": 5,
+                        "content": [
+                            5
+                        ],
+                        "text": "（本簡介未包含內容授權與生成服務條款。）",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            1049,
+                            1626,
+                            1114,
+                            1626,
+                            1114,
+                            1650,
+                            1049,
+                            1650
+                        ],
+                        "id": 6,
+                        "content": [
+                            6
+                        ],
+                        "text": "第1頁",
+                        "type": "number",
+                        "outline_level": -1
+                    }
+                ],
+                "status": "Success",
+                "content": [
+                    {
+                        "id": 0,
+                        "status": 0,
+                        "pos": [
+                            75,
+                            36,
+                            584,
+                            36,
+                            584,
+                            61,
+                            75,
+                            61
+                        ],
+                        "type": "header",
+                        "text": "測試文件 TEST ONLY — 虛構活動，僅供 MEMory 競賽開發測試",
+                        "score": 0.8413480520248413,
+                        "angle": 0
+                    },
+                    {
+                        "id": 1,
+                        "status": 1,
+                        "pos": [
+                            124,
+                            135,
+                            614,
+                            135,
+                            614,
+                            175,
+                            124,
+                            175
+                        ],
+                        "type": "doc_title",
+                        "text": "# 「山城手作市集 2026」活動簡介",
+                        "score": 0.8676826357841492,
+                        "angle": 0
+                    },
+                    {
+                        "id": 2,
+                        "status": 1,
+                        "pos": [
+                            106,
+                            196,
+                            377,
+                            196,
+                            377,
+                            224,
+                            106,
+                            224
+                        ],
+                        "type": "text",
+                        "text": "主辦：山城手作協會（虛構）",
+                        "score": 0.810412585735321,
+                        "angle": 0
+                    },
+                    {
+                        "id": 3,
+                        "status": 1,
+                        "pos": [
+                            107,
+                            231,
+                            374,
+                            231,
+                            374,
+                            257,
+                            107,
+                            257
+                        ],
+                        "type": "text",
+                        "text": "日期：2026年12月12日",
+                        "score": 0.8100473284721375,
+                        "angle": 0
+                    },
+                    {
+                        "id": 4,
+                        "status": 1,
+                        "pos": [
+                            106,
+                            264,
+                            523,
+                            264,
+                            523,
+                            293,
+                            106,
+                            293
+                        ],
+                        "type": "text",
+                        "text": "說明：一日手作市集，歡迎參加者拍照留念。",
+                        "score": 0.7774031162261963,
+                        "angle": 0
+                    },
+                    {
+                        "id": 5,
+                        "status": 1,
+                        "pos": [
+                            118,
+                            299,
+                            525,
+                            299,
+                            525,
+                            328,
+                            118,
+                            328
+                        ],
+                        "type": "text",
+                        "text": "（本簡介未包含內容授權與生成服務條款。）",
+                        "score": 0.7404384613037109,
+                        "angle": 0
+                    },
+                    {
+                        "id": 6,
+                        "status": 0,
+                        "pos": [
+                            1049,
+                            1626,
+                            1114,
+                            1626,
+                            1114,
+                            1650,
+                            1049,
+                            1650
+                        ],
+                        "type": "number",
+                        "text": "第1頁",
+                        "score": 0.8169224262237549,
+                        "angle": 0
+                    }
+                ]
+            }
+        ],
+        "detail": [
+            {
+                "paragraph_id": 1,
+                "page_id": 1,
+                "status": 0,
+                "type": "paragraph",
+                "position": [
+                    75,
+                    36,
+                    584,
+                    36,
+                    584,
+                    61,
+                    75,
+                    61
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "header",
+                "content": 0,
+                "text": "測試文件 TEST ONLY — 虛構活動，僅供 MEMory 競賽開發測試"
+            },
+            {
+                "paragraph_id": 2,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    124,
+                    135,
+                    614,
+                    135,
+                    614,
+                    175,
+                    124,
+                    175
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "doc_title",
+                "content": 0,
+                "text": "# 「山城手作市集 2026」活動簡介"
+            },
+            {
+                "paragraph_id": 3,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    106,
+                    196,
+                    377,
+                    196,
+                    377,
+                    224,
+                    106,
+                    224
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "主辦：山城手作協會（虛構）"
+            },
+            {
+                "paragraph_id": 4,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    107,
+                    231,
+                    374,
+                    231,
+                    374,
+                    257,
+                    107,
+                    257
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "日期：2026年12月12日"
+            },
+            {
+                "paragraph_id": 5,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    106,
+                    264,
+                    523,
+                    264,
+                    523,
+                    293,
+                    106,
+                    293
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "說明：一日手作市集，歡迎參加者拍照留念。"
+            },
+            {
+                "paragraph_id": 6,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    118,
+                    299,
+                    525,
+                    299,
+                    525,
+                    328,
+                    118,
+                    328
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "（本簡介未包含內容授權與生成服務條款。）"
+            },
+            {
+                "paragraph_id": 7,
+                "page_id": 1,
+                "status": 0,
+                "type": "paragraph",
+                "position": [
+                    1049,
+                    1626,
+                    1114,
+                    1626,
+                    1114,
+                    1650,
+                    1049,
+                    1650
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "number",
+                "content": 0,
+                "text": "第1頁"
+            }
+        ],
+        "total_count": 1,
+        "valid_page_number": 1,
+        "total_page_number": 1,
+        "catalog": {},
+        "excel_base64": "",
+        "success_count": 1,
+        "markdown": "# 「山城手作市集 2026」活動簡介\n\n主辦：山城手作協會（虛構）\n\n日期：2026年12月12日\n\n說明：一日手作市集，歡迎參加者拍照留念。\n\n（本簡介未包含內容授權與生成服務條款。）\n\n"
+    },
+    "x_request_id": "060992df44ea4c2ea6f4f0c5db89b63c",
+    "file_type": "PDF",
+    "metrics": [
+        {
+            "angle": 0,
+            "status": "Success",
+            "dpi": 144,
+            "page_id": 1,
+            "image_id": "",
+            "duration": 0.003604412078857422,
+            "page_image_height": 1684,
+            "page_image_width": 1191
+        }
+    ],
+    "message": "Success",
+    "code": 200,
+    "image_process": []
+}

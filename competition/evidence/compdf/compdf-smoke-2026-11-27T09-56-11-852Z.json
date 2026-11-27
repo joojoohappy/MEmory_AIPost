@@ -1,0 +1,33 @@
+{
+  "executed_at": "2026-11-27T09:56:18.157Z",
+  "input": "B-mountain-market-brief.pdf",
+  "documentParsing": {
+    "operation": "documentParsing",
+    "endpoint": "https://api-server.compdf.com/server/v2/process/idp/documentParsing",
+    "started_at": "2026-11-27T09:56:11.854Z",
+    "latency_ms": 5933,
+    "http_status": 200,
+    "api_code": "200",
+    "task_id": "36b70d7e-60b0-46de-94be-c1ac065e6a59",
+    "file_status": "success",
+    "result_bytes": 2033,
+    "result_type": "zip:json,md",
+    "outcome": "ok",
+    "flattened_preview": "[第 1 頁] image_id: \n[第 1 頁] 測試文件 TEST ONLY — 虛構活動，僅供 MEMory 競賽開發測試\n[第 1 頁] type: header\n[第 1 頁] # 「山城手作市集 2026」活動簡介\n[第 1 頁] type: doc_title\n[第 1 頁] 主辦：山城手作協會（虛構）\n[第 1 頁] type: text\n[第 1 頁] 日期：2026年12月12日\n[第 1 頁] type: text\n[第 1 頁] 說明：一日手作市集，歡迎參加者拍照留念。\n[第 1 頁] type: text\n[第 1 頁] （本簡介未包含內容授權與生成服務條款。）\n[第 1 頁] type: text\n[第 1 頁] 第1頁\n[第 1 頁] type: number\n[第 1 頁] status: Success\n[第 1 頁] type: header\n[第 1 頁] 測試文件 TEST ONLY — 虛構活動，僅供 MEMory 競賽開發測試\n[第 1 頁] type: doc_title\n[第 1 頁] # 「山城手作市集 2026」活動簡介\n[第 1 頁] type: text\n[第 1 頁] 主辦：山城手作協會（虛構）\n[第 1 頁] type: text\n[第 1 頁] 日期：2026年12月12日\n[第 1 頁] type: text\n[第 "
+  },
+  "documentExtract": {
+    "operation": "documentExtract",
+    "endpoint": "https://api-server.compdf.com/server/v2/process/idp/documentExtract",
+    "started_at": "2026-11-27T09:56:17.796Z",
+    "latency_ms": 361,
+    "http_status": 200,
+    "api_code": "03000",
+    "task_id": null,
+    "file_status": null,
+    "result_bytes": null,
+    "result_type": null,
+    "outcome": "error",
+    "error": "api:03000:参数校验异常",
+    "flattened_preview": ""
+  }
+}

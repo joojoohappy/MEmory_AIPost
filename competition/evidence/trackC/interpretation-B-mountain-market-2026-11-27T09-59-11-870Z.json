@@ -1,0 +1,219 @@
+{
+  "source_compdf_raw": "compdf-parsing-raw-2026-11-27T09-56-11-852Z.txt",
+  "flattened_input": "[第 1 頁] # 「山城手作市集 2026」活動簡介\n[第 1 頁] 主辦：山城手作協會（虛構）\n[第 1 頁] 日期：2026年12月12日\n[第 1 頁] 說明：一日手作市集，歡迎參加者拍照留念。\n[第 1 頁] （本簡介未包含內容授權與生成服務條款。）\n[第 1 頁] 第1頁",
+  "proposal": {
+    "event_name": {
+      "value": "山城手作市集 2026",
+      "sources": [
+        {
+          "page": 1,
+          "quote": "「山城手作市集 2026」活動簡介"
+        }
+      ]
+    },
+    "start_date": {
+      "value": "2026-12-12",
+      "sources": [
+        {
+          "page": 1,
+          "quote": "日期：2026年12月12日"
+        }
+      ]
+    },
+    "end_date": {
+      "value": "2026-12-12",
+      "sources": [
+        {
+          "page": 1,
+          "quote": "一日手作市集"
+        }
+      ]
+    },
+    "venue": {
+      "value": null,
+      "sources": []
+    },
+    "organizer": {
+      "value": "山城手作協會（虛構）",
+      "sources": [
+        {
+          "page": 1,
+          "quote": "主辦：山城手作協會（虛構）"
+        }
+      ]
+    },
+    "description": {
+      "value": "一日手作市集，歡迎參加者拍照留念。",
+      "sources": [
+        {
+          "page": 1,
+          "quote": "說明：一日手作市集，歡迎參加者拍照留念。"
+        }
+      ]
+    },
+    "schedule": [],
+    "generation_valid_from": {
+      "value": null,
+      "sources": []
+    },
+    "generation_valid_until": {
+      "value": null,
+      "sources": []
+    },
+    "agreement_status": "unknown",
+    "rights": {
+      "attendee_photos": {
+        "status": "unknown",
+        "note": "文件僅表示「歡迎參加者拍照留念」，未明確允許將參加者照片用於生成記憶短片，需主辦方確認。",
+        "sources": [
+          {
+            "page": 1,
+            "quote": "歡迎參加者拍照留念。"
+          }
+        ]
+      },
+      "attendee_videos": {
+        "status": "unknown",
+        "note": "文件未提及參加者影片之使用。",
+        "sources": [
+          {
+            "page": 1,
+            "quote": "（本簡介未包含內容授權與生成服務條款。）"
+          }
+        ]
+      },
+      "personal_download": {
+        "status": "unknown",
+        "note": "文件未提及參加者下載個人記憶短片。",
+        "sources": [
+          {
+            "page": 1,
+            "quote": "（本簡介未包含內容授權與生成服務條款。）"
+          }
+        ]
+      },
+      "public_sharing": {
+        "status": "unknown",
+        "note": "文件未提及公開分享生成短片。",
+        "sources": [
+          {
+            "page": 1,
+            "quote": "（本簡介未包含內容授權與生成服務條款。）"
+          }
+        ]
+      },
+      "commercial_use": {
+        "status": "unknown",
+        "note": "文件未提及商業用途。",
+        "sources": [
+          {
+            "page": 1,
+            "quote": "（本簡介未包含內容授權與生成服務條款。）"
+          }
+        ]
+      },
+      "official_assets": {
+        "status": "unknown",
+        "note": "文件未提及主辦方官方素材（Logo、官方影像、音樂）之使用。",
+        "sources": [
+          {
+            "page": 1,
+            "quote": "（本簡介未包含內容授權與生成服務條款。）"
+          }
+        ]
+      }
+    },
+    "issues": [
+      {
+        "kind": "missing",
+        "field": "venue",
+        "detail": "文件未載明活動地點。",
+        "sources": []
+      },
+      {
+        "kind": "missing",
+        "field": "generation_valid_from",
+        "detail": "文件未載明生成服務開放起始日。",
+        "sources": []
+      },
+      {
+        "kind": "missing",
+        "field": "generation_valid_until",
+        "detail": "文件未載明生成服務截止日。",
+        "sources": []
+      },
+      {
+        "kind": "missing",
+        "field": "schedule",
+        "detail": "文件未列出活動時程。",
+        "sources": []
+      },
+      {
+        "kind": "missing",
+        "field": "agreement_status",
+        "detail": "本檔僅為活動簡介，未包含合作協議或內容授權書，無法判斷簽署狀態；需主辦方另行提供。",
+        "sources": [
+          {
+            "page": 1,
+            "quote": "（本簡介未包含內容授權與生成服務條款。）"
+          }
+        ]
+      },
+      {
+        "kind": "missing",
+        "field": "rights",
+        "detail": "文件明示未包含內容授權與生成服務條款，所有權利項目均無法判定，需主辦方提供授權文件並經人工確認。",
+        "sources": [
+          {
+            "page": 1,
+            "quote": "（本簡介未包含內容授權與生成服務條款。）"
+          }
+        ]
+      },
+      {
+        "kind": "ambiguous",
+        "field": "rights.attendee_photos",
+        "detail": "「歡迎參加者拍照留念」僅表示允許拍照，不等同授權將照片用於生成服務，需主辦方明確表示。",
+        "sources": [
+          {
+            "page": 1,
+            "quote": "歡迎參加者拍照留念。"
+          }
+        ]
+      },
+      {
+        "kind": "ambiguous",
+        "field": "end_date",
+        "detail": "文件僅寫單一日期並描述為「一日」市集，結束日依此推定為同日，請人工確認。",
+        "sources": [
+          {
+            "page": 1,
+            "quote": "一日手作市集"
+          }
+        ]
+      },
+      {
+        "kind": "approval_pending",
+        "field": "agreement_status",
+        "detail": "協議尚未確認簽署；啟用活動前需要人工確認。",
+        "sources": []
+      }
+    ]
+  },
+  "checks": [
+    "missing:venue",
+    "agreement_unknown"
+  ],
+  "calls": [
+    {
+      "step": "document_interpretation",
+      "model": "claude-opus-5-5",
+      "request_id": "msg_011ChTEf9xVWyVb5ocWcmT3h",
+      "started_at": "2026-11-27T09:58:53.675Z",
+      "latency_ms": 18179,
+      "input_tokens": 4565,
+      "output_tokens": 1848,
+      "outcome": "ok"
+    }
+  ]
+}

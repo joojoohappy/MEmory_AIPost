@@ -1,0 +1,138 @@
+{
+    "job": {
+        "id": "6b933ea4-2461-4508-bbf1-822931d686db",
+        "status": "done",
+        "created_at": "2026-11-27T10:08:22.424Z",
+        "sample_set": "night-concert",
+        "event_name": "\u57ce\u5e02\u591c\u5149\u97f3\u6a02\u7bc0 2026 (City Glow Night Festival 2026)",
+        "tone": "gentle",
+        "reflection": "\u6211\u7ad9\u5728\u6700\u5f8c\u9762\uff0c\u4e5f\u770b\u5f97\u5230\u90a3\u9053\u91d1\u8272\u7684\u5149\u3002",
+        "media": [
+            {
+                "index": 0,
+                "type": "photo",
+                "duration_seconds": null
+            },
+            {
+                "index": 1,
+                "type": "photo",
+                "duration_seconds": null
+            },
+            {
+                "index": 2,
+                "type": "photo",
+                "duration_seconds": null
+            }
+        ],
+        "analysis": [
+            {
+                "index": 0,
+                "scene": "\u6697\u8272\u5834\u666f\u4e2d\uff0c\u6578\u9053\u5149\u675f\u7531\u4e0a\u65b9\u5411\u4e0b\u532f\u805a\u5230\u4e00\u689d\u6c34\u5e73\u7684\u6df1\u8272\u9577\u689d\u4e0a\uff0c\u80cc\u666f\u6709\u7d05\u8272\u8207\u85cd\u8272\u7684\u5149\u6688\u3002\u4e0b\u65b9\u6709\u6578\u500b\u767d\u8272\u76f4\u7acb\u7684\u5c0f\u4eae\u689d\uff0c\u770b\u4e0d\u6e05\u695a\u662f\u4ec0\u9ebc\u3002",
+                "visible_elements": [
+                    "\u5149\u675f",
+                    "\u7d05\u8272\u5149\u6688",
+                    "\u85cd\u8272\u5149\u6688",
+                    "\u6c34\u5e73\u6df1\u8272\u9577\u689d",
+                    "\u767d\u8272\u76f4\u7acb\u4eae\u689d",
+                    "\u6697\u8272\u80cc\u666f"
+                ],
+                "lighting": "\u6574\u9ad4\u504f\u6697\uff0c\u7d05\u85cd\u5c0d\u6bd4\u8272\u5149",
+                "energy": "medium",
+                "people_visible": false,
+                "best_start_seconds": null
+            },
+            {
+                "index": 1,
+                "scene": "\u6697\u8272\u5834\u666f\u4e2d\uff0c\u6578\u9053\u5149\u675f\u5411\u4e0b\u532f\u805a\u5230\u6c34\u5e73\u6df1\u8272\u9577\u689d\uff0c\u4e2d\u592e\u6709\u4e00\u5718\u6696\u9ec3\u8272\u5149\u6688\u3002\u4e0b\u65b9\u96f6\u661f\u5206\u5e03\u5e7e\u500b\u767d\u8272\u76f4\u7acb\u5c0f\u4eae\u689d\uff0c\u770b\u4e0d\u6e05\u695a\u662f\u4ec0\u9ebc\u3002",
+                "visible_elements": [
+                    "\u5149\u675f",
+                    "\u9ec3\u8272\u5149\u6688",
+                    "\u6c34\u5e73\u6df1\u8272\u9577\u689d",
+                    "\u767d\u8272\u76f4\u7acb\u4eae\u689d",
+                    "\u6697\u8272\u80cc\u666f"
+                ],
+                "lighting": "\u504f\u6697\uff0c\u4e2d\u592e\u6696\u9ec3\u8272\u5149",
+                "energy": "calm",
+                "people_visible": false,
+                "best_start_seconds": null
+            },
+            {
+                "index": 2,
+                "scene": "\u6697\u8272\u5834\u666f\u4e2d\uff0c\u6578\u9053\u5149\u675f\u5411\u4e0b\u532f\u805a\u5230\u6c34\u5e73\u6df1\u8272\u9577\u689d\uff0c\u4e0a\u65b9\u4e2d\u592e\u6709\u767d\u8272\u5149\u6688\uff0c\u5169\u5074\u6709\u9752\u7da0\u8272\u5149\u6688\u3002\u4e0b\u65b9\u6709\u4e00\u6392\u8f03\u591a\u7684\u767d\u8272\u76f4\u7acb\u5c0f\u4eae\u689d\uff0c\u770b\u4e0d\u6e05\u695a\u662f\u4ec0\u9ebc\u3002",
+                "visible_elements": [
+                    "\u5149\u675f",
+                    "\u767d\u8272\u5149\u6688",
+                    "\u9752\u7da0\u8272\u5149\u6688",
+                    "\u6c34\u5e73\u6df1\u8272\u9577\u689d",
+                    "\u767d\u8272\u76f4\u7acb\u4eae\u689d",
+                    "\u6697\u8272\u80cc\u666f"
+                ],
+                "lighting": "\u504f\u6697\uff0c\u767d\u8272\u8207\u9752\u7da0\u8272\u51b7\u8272\u8abf\u5149",
+                "energy": "medium",
+                "people_visible": false,
+                "best_start_seconds": null
+            }
+        ],
+        "analysis_source": "claude",
+        "storyboard": {
+            "title": "\u591c\u88e1\u532f\u805a\u7684\u5149",
+            "narrative": "2026\u5e7412\u67085\u65e5\uff0c\u4f60\u5728\u53f0\u5317\u6cb3\u5cb8\u97f3\u6a02\u5ee3\u5834\u7684\u57ce\u5e02\u591c\u5149\u97f3\u6a02\u7bc0\u3002\u6697\u8272\u7684\u591c\u88e1\uff0c\u6578\u9053\u5149\u675f\u7531\u4e0a\u65b9\u5411\u4e0b\u532f\u805a\u5230\u4e00\u689d\u6c34\u5e73\u7684\u6df1\u8272\u9577\u689d\u4e0a\uff0c\u7d05\u8272\u3001\u85cd\u8272\u3001\u9752\u7da0\u8272\u8207\u767d\u8272\u7684\u5149\u6688\u5148\u5f8c\u51fa\u73fe\uff0c\u6700\u5f8c\u662f\u4e2d\u592e\u4e00\u5718\u6696\u9ec3\u8272\u7684\u5149\u3002",
+            "shots": [
+                {
+                    "media_index": 0,
+                    "seconds": 6,
+                    "start_seconds": 0,
+                    "caption": "\u5149\u675f\u5411\u4e0b\u532f\u805a\uff0c\u7d05\u8207\u85cd\u7684\u5149\u6688",
+                    "grounding": "visual"
+                },
+                {
+                    "media_index": 2,
+                    "seconds": 6,
+                    "start_seconds": 0,
+                    "caption": "\u767d\u5149\u8207\u9752\u7da0\u8272\u7684\u5149",
+                    "grounding": "visual"
+                },
+                {
+                    "media_index": 1,
+                    "seconds": 6,
+                    "start_seconds": 0,
+                    "caption": "\u4e2d\u592e\u4e00\u5718\u6696\u9ec3\u8272\u7684\u5149",
+                    "grounding": "visual"
+                }
+            ],
+            "reflection_after_shot": 2,
+            "ending_text": "\u57ce\u5e02\u591c\u5149\u97f3\u6a02\u7bc0 2026\u30fb2026.12.05"
+        },
+        "plan_source": "claude",
+        "plan_repairs": [],
+        "ai_calls": [
+            {
+                "step": "media_analysis",
+                "model": "claude-opus-5-5",
+                "request_id": "msg_011ChTFP73YHtxnH2YNuJG3h",
+                "latency_ms": 5581,
+                "input_tokens": 4409,
+                "output_tokens": 531,
+                "outcome": "ok"
+            },
+            {
+                "step": "storyboard",
+                "model": "claude-opus-5-5",
+                "request_id": "msg_011ChTFPWHHv1UPfgUyPVHYx",
+                "latency_ms": 8390,
+                "input_tokens": 2513,
+                "output_tokens": 824,
+                "outcome": "ok"
+            }
+        ],
+        "render": {
+            "started_at": "2026-11-27T10:08:36.670Z",
+            "finished_at": "2026-11-27T10:08:57.965Z",
+            "seconds": 27,
+            "bytes": 457519,
+            "renderer": "ffmpeg-local"
+        },
+        "error": null,
+        "download_allowed": true
+    }
+}

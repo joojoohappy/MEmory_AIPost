@@ -1,0 +1,141 @@
+{
+  "base": "http://localhost:3100",
+  "started_at": "2026-11-27T10:02:52.612Z",
+  "steps": [
+    {
+      "name": "doc B processed via ComPDF + AI",
+      "ok": true,
+      "compdf": [
+        {
+          "op": "documentParsing",
+          "outcome": "ok",
+          "task": "5538fbcb-2480-49b5-9d3c-dba5558abb8c"
+        }
+      ],
+      "ai": [
+        {
+          "model": "claude-opus-5-5",
+          "outcome": "ok",
+          "id": "msg_011ChTEyCZmUrCcM2xYUDdUv"
+        }
+      ]
+    },
+    {
+      "name": "doc B: unknown rights cannot be force-enabled; studio closed",
+      "ok": true,
+      "rights": {
+        "attendee_photos": "unknown",
+        "attendee_videos": "unknown",
+        "personal_download": "unknown",
+        "public_sharing": "unknown",
+        "commercial_use": "unknown",
+        "official_assets": "unknown"
+      },
+      "issues": 9,
+      "gate": {
+        "open": false,
+        "reason": "no_media_allowed"
+      }
+    },
+    {
+      "name": "doc A processed via ComPDF + AI",
+      "ok": true,
+      "compdf": [
+        {
+          "op": "documentParsing",
+          "outcome": "ok",
+          "task": "7f64d4ec-b213-4b27-8eb2-58f7c43ddde1"
+        }
+      ],
+      "ai": [
+        {
+          "model": "claude-opus-5-5",
+          "outcome": "ok",
+          "id": "msg_011ChTEzofAha8AfY1bX99rV"
+        }
+      ],
+      "rights": {
+        "attendee_photos": "allowed",
+        "attendee_videos": "restricted",
+        "personal_download": "allowed",
+        "public_sharing": "restricted",
+        "commercial_use": "restricted",
+        "official_assets": "unknown"
+      },
+      "issues": [
+        "conflict:generation_valid_until",
+        "ambiguous:generation_valid_from",
+        "ambiguous:rights.public_sharing",
+        "ambiguous:rights.official_assets",
+        "approval_pending:agreement_status"
+      ],
+      "checks": [
+        "agreement_draft"
+      ]
+    },
+    {
+      "name": "doc A: conflict and pending approval flagged",
+      "ok": true
+    },
+    {
+      "name": "doc A without acknowledgement stays pending_signature (studio closed)",
+      "ok": true,
+      "gate": {
+        "open": false,
+        "reason": "inactive"
+      }
+    },
+    {
+      "name": "城市夜光音樂節 2026 (City Glow Night Festival 2026)",
+      "ok": true,
+      "dates": [
+        "2026-12-05",
+        "2026-12-06"
+      ],
+      "venue": "台北河岸音樂廣場（虛構場地）",
+      "window": [
+        "2026-11-25",
+        "2026-12-20"
+      ],
+      "permissions": {
+        "attendee_photos": true,
+        "attendee_videos": false,
+        "personal_download": true,
+        "public_sharing": false,
+        "commercial_use": false,
+        "official_assets": false
+      },
+      "gate": {
+        "open": true,
+        "photos": true,
+        "videos": false,
+        "download": true
+      }
+    },
+    {
+      "name": "invalid inputs rejected",
+      "ok": true,
+      "noConsent": {
+        "code": "CONSENT_REQUIRED"
+      },
+      "bad": {
+        "code": "TOO_FEW_FILES"
+      }
+    },
+    {
+      "name": "studio job under document policy renders and downloads",
+      "ok": false,
+      "event_name": "城市夜光音樂節 2026 (City Glow Night Festival 2026)",
+      "media_types": [
+        "photo",
+        "photo",
+        "photo"
+      ],
+      "plan_source": null,
+      "ai": [],
+      "download_bytes": 0
+    }
+  ],
+  "finished_at": "2026-11-27T10:03:47.071Z",
+  "passed": false
+}

@@ -1,0 +1,166 @@
+{
+    "job": {
+        "id": "171095ce-2c30-44c8-8d6f-0410f6513f21",
+        "status": "done",
+        "created_at": "2026-11-27T09:56:31.737Z",
+        "sample_set": null,
+        "event_name": "MEmory \u73fe\u5834\u8a18\u61b6\u793a\u7bc4",
+        "tone": "gentle",
+        "reflection": "\u7b2c\u4e00\u6b21\u4e00\u500b\u4eba\u53bb\uff0c\u7d50\u675f\u5f8c\u5728\u8def\u53e3\u7ad9\u4e86\u597d\u4e45\u3002",
+        "media": [
+            {
+                "index": 0,
+                "type": "photo",
+                "duration_seconds": null
+            },
+            {
+                "index": 1,
+                "type": "photo",
+                "duration_seconds": null
+            },
+            {
+                "index": 2,
+                "type": "video",
+                "duration_seconds": 3
+            },
+            {
+                "index": 3,
+                "type": "photo",
+                "duration_seconds": null
+            }
+        ],
+        "analysis": [
+            {
+                "index": 0,
+                "scene": "\u660f\u6697\u7684\u73fe\u5834\uff0c\u4e0a\u65b9\u6709\u6a21\u7cca\u7684\u7d2b\u7d05\u3001\u85cd\u8272\u8207\u9ec3\u8272\u5149\u6688\uff0c\u756b\u9762\u4e0b\u65b9\u662f\u4e00\u6392\u89c0\u773e\u7684\u9ed1\u8272\u526a\u5f71\uff0c\u5176\u4e2d\u6709\u5e7e\u500b\u767d\u8272\u5c0f\u4eae\u9ede\u8209\u8d77\u3002",
+                "visible_elements": [
+                    "\u7d2b\u7d05\u8272\u5149\u6688",
+                    "\u85cd\u8272\u5149\u6688",
+                    "\u9ec3\u8272\u5149\u6688",
+                    "\u89c0\u773e\u526a\u5f71",
+                    "\u767d\u8272\u5c0f\u4eae\u9ede"
+                ],
+                "lighting": "\u660f\u6697\uff0c\u7d2b\u7d05\u3001\u85cd\u3001\u9ec3\u8272\u5f69\u5149\u6a21\u7cca\u6563\u958b",
+                "energy": "medium",
+                "people_visible": true,
+                "best_start_seconds": null
+            },
+            {
+                "index": 1,
+                "scene": "\u6696\u8272\u5929\u7a7a\u4e0b\uff0c\u4e00\u4e32\u7d05\u8272\u71c8\u7c60\u6a6b\u639b\u5728\u4e0a\u65b9\uff0c\u4e0b\u65b9\u6709\u56db\u5ea7\u4e0d\u540c\u984f\u8272\u5c4b\u9802\u7684\u767d\u8272\u5c0f\u6524\u4f4d\uff0c\u524d\u65b9\u7ad9\u8457\u4e00\u6392\u4eba\u3002",
+                "visible_elements": [
+                    "\u7d05\u8272\u71c8\u7c60\u4e32",
+                    "\u56db\u5ea7\u5c0f\u6524\u4f4d",
+                    "\u7d05\u8272\u5c4b\u9802",
+                    "\u9ed1\u8272\u5c4b\u9802",
+                    "\u9ec3\u8272\u5c4b\u9802",
+                    "\u7da0\u8272\u5c4b\u9802",
+                    "\u4eba\u7fa4",
+                    "\u6a21\u7cca\u7684\u592a\u967d\u5149\u6688"
+                ],
+                "lighting": "\u6a58\u7c89\u8272\u6696\u8abf\uff0c\u985e\u4f3c\u9ec3\u660f\u5149\u7dda",
+                "energy": "medium",
+                "people_visible": true,
+                "best_start_seconds": null
+            },
+            {
+                "index": 2,
+                "scene": "\u756b\u9762\u70ba\u5782\u76f4\u5f69\u8272\u689d\u7d0b\u7684\u6e2c\u8a66\u5716\u6a23\uff0c\u6709\u4e00\u689d\u5f69\u8679\u6f38\u5c64\u659c\u7dda\u8207\u68cb\u76e4\u683c\u5340\u584a\uff0c\u5de6\u4e0a\u89d2\u6709\u6642\u9593\u78bc\uff0c\u770b\u4e0d\u51fa\u73fe\u5834\u5be6\u666f\u3002",
+                "visible_elements": [
+                    "\u5f69\u8272\u5782\u76f4\u689d\u7d0b",
+                    "\u5f69\u8679\u659c\u7dda",
+                    "\u68cb\u76e4\u683c\u5340\u584a",
+                    "\u6642\u9593\u78bc",
+                    "\u5c0f\u65b9\u9ede"
+                ],
+                "lighting": "\u9ad8\u98fd\u548c\u7d14\u8272\uff0c\u7121\u81ea\u7136\u5149\u7dda",
+                "energy": "medium",
+                "people_visible": false,
+                "best_start_seconds": 0
+            },
+            {
+                "index": 3,
+                "scene": "\u9ed1\u6697\u7a7a\u9593\u4e2d\uff0c\u6578\u9053\u5149\u675f\u5f9e\u4e0a\u65b9\u5411\u4e0b\u7167\u5411\u4e00\u500b\u6df1\u8272\u5e73\u53f0\uff0c\u4e2d\u592e\u6709\u9ec3\u8272\u5149\u6688\uff0c\u524d\u65b9\u6709\u5e7e\u500b\u767d\u8272\u5c0f\u4eae\u9ede\u3002",
+                "visible_elements": [
+                    "\u5149\u675f",
+                    "\u9ec3\u8272\u5149\u6688",
+                    "\u6df1\u8272\u5e73\u53f0",
+                    "\u767d\u8272\u5c0f\u4eae\u9ede",
+                    "\u9ed1\u6697\u80cc\u666f"
+                ],
+                "lighting": "\u6574\u9ad4\u660f\u6697\uff0c\u4e2d\u592e\u6696\u9ec3\u5149\u8207\u7070\u767d\u5149\u675f",
+                "energy": "calm",
+                "people_visible": false,
+                "best_start_seconds": null
+            }
+        ],
+        "analysis_source": "claude",
+        "storyboard": {
+            "title": "\u7b2c\u4e00\u6b21\u4e00\u500b\u4eba\u53bb",
+            "narrative": "\u9ec3\u660f\u7684\u6696\u5149\u88e1\uff0c\u4e00\u4e32\u7d05\u71c8\u7c60\u6a6b\u639b\u5728\u56db\u5ea7\u5c0f\u6524\u4f4d\u4e0a\u65b9\uff0c\u524d\u65b9\u7ad9\u8457\u4e00\u6392\u4eba\u3002\u660f\u6697\u7684\u7a7a\u9593\u4e2d\uff0c\u6578\u9053\u5149\u675f\u5f9e\u4e0a\u65b9\u7167\u5411\u6df1\u8272\u5e73\u53f0\uff0c\u4e2d\u592e\u6709\u9ec3\u8272\u5149\u6688\uff1b\u53f0\u4e0b\u662f\u4e00\u6392\u89c0\u773e\u7684\u526a\u5f71\uff0c\u6709\u5e7e\u500b\u767d\u8272\u5c0f\u4eae\u9ede\u8209\u8d77\u3002\u4f60\u5beb\u4e0b\uff0c\u9019\u662f\u4f60\u7b2c\u4e00\u6b21\u4e00\u500b\u4eba\u53bb\uff0c\u7d50\u675f\u5f8c\u5728\u8def\u53e3\u7ad9\u4e86\u597d\u4e45\u3002",
+            "shots": [
+                {
+                    "media_index": 1,
+                    "seconds": 5.5,
+                    "start_seconds": 0,
+                    "caption": "\u9ec3\u660f\u4e0b\uff0c\u7d05\u71c8\u7c60\u4e32\u639b\u5728\u6524\u4f4d\u4e0a\u65b9",
+                    "grounding": "visual"
+                },
+                {
+                    "media_index": 3,
+                    "seconds": 5.5,
+                    "start_seconds": 0,
+                    "caption": "\u5149\u675f\u5f9e\u4e0a\u65b9\u843d\u5411\u5e73\u53f0",
+                    "grounding": "visual"
+                },
+                {
+                    "media_index": 0,
+                    "seconds": 6,
+                    "start_seconds": 0,
+                    "caption": "\u53f0\u4e0b\u4e00\u6392\u526a\u5f71\uff0c\u4eae\u9ede\u8209\u8d77",
+                    "grounding": "visual"
+                },
+                {
+                    "media_index": 2,
+                    "seconds": 3,
+                    "start_seconds": 0,
+                    "caption": null,
+                    "grounding": "none"
+                }
+            ],
+            "reflection_after_shot": -1,
+            "ending_text": "\u9019\u6bb5\u8a18\u61b6\uff0c\u7531\u4f60\u4fdd\u5b58"
+        },
+        "plan_source": "claude",
+        "plan_repairs": [],
+        "ai_calls": [
+            {
+                "step": "media_analysis",
+                "model": "claude-opus-5-5",
+                "request_id": "msg_011ChTEUisMZfgkowYoq9p66",
+                "latency_ms": 7857,
+                "input_tokens": 5226,
+                "output_tokens": 686,
+                "outcome": "ok"
+            },
+            {
+                "step": "storyboard",
+                "model": "claude-opus-5-5",
+                "request_id": "msg_011ChTEVJ4ddA8t4s7VLdcRL",
+                "latency_ms": 8946,
+                "input_tokens": 2628,
+                "output_tokens": 929,
+                "outcome": "ok"
+            }
+        ],
+        "render": {
+            "started_at": "2026-11-27T09:56:48.940Z",
+            "finished_at": "2026-11-27T09:57:12.167Z",
+            "seconds": 29,
+            "bytes": 1488956,
+            "renderer": "ffmpeg-local"
+        },
+        "error": null,
+        "download_allowed": true
+    }
+}

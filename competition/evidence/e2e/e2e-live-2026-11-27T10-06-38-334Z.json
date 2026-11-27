@@ -1,0 +1,123 @@
+{
+  "base": "http://localhost:3100",
+  "started_at": "2026-11-27T10:06:38.334Z",
+  "steps": [
+    {
+      "name": "doc B processed via ComPDF + AI",
+      "ok": false,
+      "compdf": [
+        {
+          "op": "documentParsing",
+          "outcome": "error",
+          "task": "63df495b-d563-4c0f-a88a-c01c0e8f49ae"
+        }
+      ],
+      "ai": []
+    },
+    {
+      "name": "doc B: unknown rights cannot be force-enabled; studio closed",
+      "ok": false,
+      "rights": {},
+      "gate": {
+        "open": true,
+        "photos": true,
+        "videos": true,
+        "download": true
+      }
+    },
+    {
+      "name": "doc A processed via ComPDF + AI",
+      "ok": false,
+      "compdf": [
+        {
+          "op": "documentParsing",
+          "outcome": "error",
+          "task": null
+        }
+      ],
+      "ai": [],
+      "rights": {},
+      "checks": []
+    },
+    {
+      "name": "doc A: conflict and pending approval flagged",
+      "ok": false
+    },
+    {
+      "name": "doc A without acknowledgement stays pending_signature (studio closed)",
+      "ok": false,
+      "gate": {
+        "open": true,
+        "photos": true,
+        "videos": true,
+        "download": true
+      }
+    },
+    {
+      "name": "MEmory 現場記憶示範",
+      "ok": false,
+      "dates": [
+        null,
+        null
+      ],
+      "venue": null,
+      "window": [
+        null,
+        null
+      ],
+      "permissions": {
+        "attendee_photos": true,
+        "attendee_videos": true,
+        "personal_download": true,
+        "public_sharing": false,
+        "commercial_use": false,
+        "official_assets": false
+      },
+      "gate": {
+        "open": true,
+        "photos": true,
+        "videos": true,
+        "download": true
+      }
+    },
+    {
+      "name": "invalid inputs rejected",
+      "ok": true,
+      "noConsent": {
+        "code": "CONSENT_REQUIRED"
+      },
+      "bad": {
+        "code": "TOO_FEW_FILES"
+      }
+    },
+    {
+      "name": "studio job under document policy renders and downloads",
+      "ok": false,
+      "event_name": "MEmory 現場記憶示範",
+      "media_types": [
+        "photo",
+        "photo",
+        "photo",
+        "video"
+      ],
+      "plan_source": null,
+      "ai": [
+        {
+          "step": "media_analysis",
+          "model": "claude-opus-5-5",
+          "outcome": "error",
+          "id": null
+        },
+        {
+          "step": "media_analysis",
+          "model": "claude-sonnet-5-5",
+          "outcome": "error",
+          "id": null
+        }
+      ],
+      "download_bytes": 0
+    }
+  ],
+  "finished_at": "2026-11-27T11:40:30.617Z",
+  "passed": false
+}

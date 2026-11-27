@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-11-27T12:13:37Z",
+  "public_url": "https://capture-pursue-overhead-longer.trycloudflare.com",
+  "tunnel": { "tool": "cloudflared", "version": "2026.11.2", "arch": "windows-amd64 (running on ARM64 host via emulation)", "mode": "quick tunnel (no account)", "origin": "http://localhost:3100", "edge_location": "khh01" },
+  "server_env": { "COMPETITION_PUBLIC": "1", "MEMORY_INLINE_WORKER": "0", "COMPETITION_DAILY_JOB_CAP": "80", "COMPETITION_CLIENT_HOURLY_CAP": "6", "build_commit": "ded1a0a" },
+  "checks": [
+    { "method": "GET", "path": "/", "expect": "redirect to /studio", "status": 307, "location": "/studio", "ok": true },
+    { "method": "GET", "path": "/studio", "expect": 200, "status": 200, "ok": true },
+    { "method": "GET", "path": "/organizer", "expect": 200, "status": 200, "ok": true },
+    { "method": "GET", "path": "/admin", "expect": 404, "status": 404, "ok": true },
+    { "method": "GET", "path": "/api/health", "expect": 404, "status": 404, "ok": true },
+    { "method": "POST", "path": "/api/organizer/reset", "auth": "none", "expect": "401 or 403", "status": 403, "ok": true },
+    { "method": "GET", "path": "/api/studio/event", "status": 200, "ok": true,
+      "ai": { "configured": true, "vision_model": "claude-opus-5-5", "story_model": "claude-opus-5-5" },
+      "compdf": { "configured": true },
+      "renderer": { "name": "ffmpeg-local", "font": true },
+      "event": { "id": "memory-demo-seed", "name": "MEmory 現場記憶示範", "source": "seed", "activation": "active" },
+      "gate": { "open": true, "photos": true, "videos": true, "download": true } }
+  ],
+  "notes": "Read-only checks; no studio job started through the tunnel; no token sent."
+}

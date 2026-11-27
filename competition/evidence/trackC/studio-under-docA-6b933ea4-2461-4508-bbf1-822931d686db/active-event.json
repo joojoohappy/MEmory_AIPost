@@ -1,0 +1,66 @@
+{
+    "event": {
+        "id": "doc-a3ee1b56",
+        "name": "\u57ce\u5e02\u591c\u5149\u97f3\u6a02\u7bc0 2026 (City Glow Night Festival 2026)",
+        "start_date": "2026-12-05",
+        "end_date": "2026-12-06",
+        "venue": "\u53f0\u5317\u6cb3\u5cb8\u97f3\u6a02\u5ee3\u5834\uff08\u865b\u69cb\u5834\u5730\uff09",
+        "organizer": "\u591c\u5149\u6587\u5316\u6709\u9650\u516c\u53f8\uff08\u865b\u69cb\uff09",
+        "description": "\u5169\u5929\u7684\u6236\u5916\u591c\u9593\u97f3\u6a02\u7bc0\uff0c\u5305\u542b\u4e3b\u821e\u53f0\u6f14\u51fa\u3001\u71c8\u5149\u88dd\u7f6e\u8207\u5e02\u96c6\u3002\u4e3b\u8fa6\u65b9\u5e0c\u671b\u8b93\u53c3\u52a0\u8005\u7528\u81ea\u5df1\u62cd\u7684\u7167\u7247\u8207\u5f71\u7247\uff0c\u751f\u6210\u500b\u4eba\u5316\u7684\u8a18\u61b6\u77ed\u7247\u4f5c\u70ba\u7d00\u5ff5\u3002",
+        "schedule": [
+            {
+                "time": "2026-12-05 17:00",
+                "item": "\u958b\u653e\u5165\u5834\u3001\u5e02\u96c6\u958b\u59cb"
+            },
+            {
+                "time": "2026-12-05 19:00",
+                "item": "\u4e3b\u821e\u53f0\u6f14\u51fa"
+            },
+            {
+                "time": "2026-12-05 21:30",
+                "item": "\u71c8\u5149\u88dd\u7f6e\u79c0"
+            },
+            {
+                "time": "2026-12-06 16:00",
+                "item": "\u65e5\u9593\u5e02\u96c6"
+            },
+            {
+                "time": "2026-12-06 20:00",
+                "item": "\u9589\u5e55\u6f14\u51fa"
+            }
+        ],
+        "generation_valid_from": "2026-11-25",
+        "generation_valid_until": "2026-12-20",
+        "permissions": {
+            "attendee_photos": true,
+            "attendee_videos": false,
+            "personal_download": true,
+            "public_sharing": false,
+            "commercial_use": false,
+            "official_assets": false
+        },
+        "source": "document",
+        "source_document": "A-city-glow-proposal-license-DRAFT.pdf",
+        "confirmed_at": "2026-11-27T10:08:22.162Z",
+        "confirmed_by_note": "replay of real ComPDF+Claude output; earlier end date chosen",
+        "activation": "active"
+    },
+    "gate": {
+        "open": true,
+        "photos": true,
+        "videos": false,
+        "download": true
+    },
+    "ai": {
+        "configured": true,
+        "vision_model": "claude-opus-5-5",
+        "story_model": "claude-opus-5-5"
+    },
+    "renderer": {
+        "name": "ffmpeg-local",
+        "font": true
+    },
+    "compdf": {
+        "configured": true
+    }
+}

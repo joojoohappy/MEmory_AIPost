@@ -1,0 +1,120 @@
+<div align="center">
+
+# MEmory
+
+**同一場活動，每個人帶走的回憶都不一樣。**
+<br>AI 幫你整理你經歷過的片刻，不替你編造回憶。
+
+<img src="competition/evidence/trackA/run-0954-aea64fe1-b6bf-4a61-8199-a62956a0ade5/contact-sheet.jpg" width="720" alt="MEmory 先前產生的短片畫格">
+
+<sub>▲ 先前實際產生的範例短片畫格（使用合成的「夜間演唱會」範例素材，經 Claude 分析、FFmpeg 合成）</sub>
+
+</div>
+
+---
+
+## Why MEmory
+
+在 AI 什麼都能生成的時代，我更在意的是人的獨特性。每個人站在同一個現場，看見的光、記住的瞬間、心裡的那句話都不一樣，這些差異正是回憶的價值。
+
+技術可以全球化，文化不應該被同質化。我希望 AI 放大人的價值、保留人的主導權：字幕只描述畫面裡真的出現的東西，你寫下的那句話一字不改地放進影片。
+
+## One Event, Different Memories
+
+> 概念示意圖，不是實際使用者資料。
+
+```mermaid
+flowchart LR
+  E["同一場活動"] --> A["觀眾 A：舞台燈光 + 「燈全亮起來的那一刻」"]
+  E --> B["觀眾 B：市集攤位 + 「第一次和朋友一起來」"]
+  E --> C["觀眾 C：散場人潮 + 「捨不得走」"]
+  A --> FA["A 的回憶短片"]
+  B --> FB["B 的回憶短片"]
+  C --> FC["C 的回憶短片"]
+```
+
+## Product Experience
+
+以下都是實際執行時的畫面（長截圖已切成相同尺寸的段落）。
+
+**觀眾端：回憶工作室**
+
+| ① 活動與素材 | ② 心得、語氣、產生進度 | ③ 產生的短片與 AI 敘事 |
+|:---:|:---:|:---:|
+| <img src="competition/assets/readme/01-event.jpg" width="250"> | <img src="competition/assets/readme/02-reflection.jpg" width="250"> | <img src="competition/assets/readme/03-film.jpg" width="250"> |
+
+**分鏡依據與主辦方文件代理**
+
+| ④ 分鏡表：AI 看到什麼 | ⑤ 主辦方上傳文件 | ⑥ 文件設定套用到觀眾端 |
+|:---:|:---:|:---:|
+| <img src="competition/assets/readme/04-storyboard.jpg" width="250"> | <img src="competition/assets/readme/05-organizer.jpg" width="250"> | <img src="competition/assets/readme/06-doc-event.jpg" width="250"> |
+
+端對端測試中產生的短片畫格：
+
+<img src="competition/evidence/e2e/contact-sheet-b8f5a0cf-c01f-4266-bd8e-2436b7f8156f.jpg" width="760">
+
+完整長截圖：[工作室](competition/evidence/e2e/studio-phone.png) · [產生結果](competition/evidence/e2e/studio-live-result.png) · [主辦方](competition/evidence/e2e/organizer-phone.png) · [文件設定](competition/evidence/e2e/studio-document-derived-event.png)
+
+## How It Works
+
+### 觀眾端：回憶短片
+
+```mermaid
+flowchart LR
+  U["照片／短影片 + 一句心得 + 語氣"] --> V["Claude 視覺分析：場景、光線、氛圍"]
+  V --> S["Claude 分鏡與字幕：每句標註依據"]
+  S --> K["伺服器驗證：長度、秒數、內容"]
+  K --> R["FFmpeg 用原始素材合成 720x1280 短片"]
+  R --> P["預覽、下載、刪除"]
+```
+
+### 主辦方：KDAN 文件代理
+
+在規劃 MEmory 的過程中，我一直在思考如何讓它能被應用到不同國家、不同規模、不同類型的文化活動，同時保留每一個活動本身的特殊性。
+
+但每場活動的企劃、場域資訊、合作方式和內容授權條件都不一樣。如果每次導入都要工程師重新理解文件、客製化開發，這個服務就很難規模化，資源有限的文化活動也很難用上這樣的技術。
+
+所以這次我希望透過 KDAN 的工具，讓 AI 成為主辦方與 MEmory 系統之間的文件代理人：
+
+```mermaid
+flowchart TD
+  D["主辦方上傳企劃書或授權 PDF"] --> P["ComPDF documentParsing 解析文件"]
+  P --> C["Claude 擷取活動資訊、素材使用範圍、授權期限、分享條件，附原文與頁碼"]
+  C --> I["AI 標出資訊缺漏、授權衝突、未確認條款"]
+  I --> H["主辦方人工確認；不明確的授權預設停用"]
+  H --> A["轉成結構化設定，直接套用到觀眾端"]
+```
+
+這個流程已經用真實的 ComPDF API 和端對端測試驗證過，從文件輸入一直到活動設定實際生效。我希望 AI 處理完文件後，產出的不只是一份給人讀的摘要，而是產品可以直接使用的結果。
+
+未來也希望結合 DottedSign，把合作文件的確認、簽署和授權狀態串進活動發布流程。目前只完成 MCP 唯讀連線測試，還沒有送簽功能。
+
+## Engineering Evidence
+
+- **端對端測試：** 在開發者電腦上 8/8 通過，包含 ComPDF 解析、Claude 解讀、人工確認、匯入、依文件規則產生並下載短片（[報告](competition/evidence/e2e/)）。
+- **其他測試：** 單元測試 80/80、Playwright 手機版測試 3/3（詳見 [HANDOFF](competition/HANDOFF.md)）。
+- **技術：** Next.js、Claude（claude-opus-5-5，備援 claude-sonnet-5-5）、ComPDF documentParsing、FFmpeg。
+- **文件：** [完成狀況 HANDOFF](competition/HANDOFF.md) · [驗收對照 ACCEPTANCE](competition/ACCEPTANCE.md) · [證據索引 EVIDENCE_INDEX](competition/EVIDENCE_INDEX.md) · [原始證據](competition/evidence/)
+
+## 試用方式
+
+- 網址與評審通行碼請見投稿表單的「作品交付連結／測試方式」。用表單裡的完整連結打開，通行碼會自動帶入。
+- 沒有通行碼也能看頁面上預先產生的範例短片（頁面上有標示）。
+- 步驟：打開連結 → 選範例素材，或上傳 2–8 張照片／短影片 → 寫一句心得、選語氣 → 勾選同意 → 約 1 分鐘後預覽並下載。
+
+## 目前限制
+
+- 線上版架在開發者自己的電腦上，電腦關機時無法使用。
+- ComPDF documentExtract 呼叫失敗，目前只用 documentParsing。
+- DottedSign 只有唯讀連線，尚未送簽。沒有使用 Glows AI。
+- AI 解讀合約只是輔助，不構成法律意見，必須經過人工確認。
+
+## What's Next
+
+音樂祭、地方祭典、展覽、劇場、運動賽事：每一種文化現場都有自己的語言和規則。我們希望主辦方只要上傳文件，就能把 MEmory 帶進自己的活動，讓每位參與者留下屬於自己的版本。
+
+**技術負責整理，回憶屬於你。**
+
+---
+
+<sub>金鑰不在這個 repo 裡。未授權任何開源授權，保留所有權利，僅供比賽評審檢視。這是供評審檢視的節錄版，不是完整專案。</sub>

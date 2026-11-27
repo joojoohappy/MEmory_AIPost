@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-11-27T12:12Z",
+  "transport": "DottedSign hosted MCP (mcp.dottedsign.com/dottedsign-api/mcp), OAuth connector added by the founder",
+  "mode": "read-only; no task created, sent, signed or voided; no plan change",
+  "calls": [
+    {"tool": "get_member", "outcome": "ok", "sanitized_result": {"member_id": "[redacted]", "name": "[redacted]", "email": "[redacted]", "lang": "zh-TW", "limitation": {"plan": "free", "limitation": {"sign_task": 0, "sign_stage": 3, "attachment": 0, "public_form": 0}}}},
+    {"tool": "get_sign_tasks_list", "args": {"status": "all", "per_page": 5}, "outcome": "error", "result": {"error_code": 403031, "error_message": "security check process not finished", "error_key": "need_to_check_security"}},
+    {"tool": "get_templates_list", "args": {"per_page": 5}, "outcome": "error", "result": {"error_code": 403031, "error_message": "security check process not finished", "error_key": "need_to_check_security"}},
+    {"tool": "get_group", "outcome": "error", "result": {"error_code": 403031, "error_message": "security check process not finished", "error_key": "need_to_check_security"}}
+  ],
+  "conclusion": "Authentication works (member profile readable). Task/template/group reads are blocked until the account finishes DottedSign's security check. Free plan reports sign_task limit 0, so sending a signing request would need a paid plan (not upgraded; needs founder approval)."
+}

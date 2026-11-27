@@ -1,0 +1,15 @@
+{"at":"2026-11-27T09:48:10.623Z","job":"1b53e916-11a8-4550-8bb9-b2ca4250d8cd","kind":"job_failed","code":"AI_NOT_CONFIGURED"}
+{"at":"2026-11-27T09:48:13.780Z","job":"27dbeebe-d282-4fe1-8180-f41f3a924400","kind":"job_failed","code":"AI_NOT_CONFIGURED"}
+{"at":"2026-11-27T09:52:57.273Z","job":"c7b5d5e6-9211-477f-9be8-bd6ae73b04c8","kind":"job_failed","code":"AI_NOT_CONFIGURED"}
+{"at":"2026-11-27T09:52:57.485Z","job":"5c20e5c1-8550-4c9e-8748-d645997cb02c","kind":"job_failed","code":"AI_NOT_CONFIGURED"}
+{"at":"2026-11-27T09:53:15.525Z","job":"6d4c83d0-523d-45b9-9bc1-1a72bdd2a7e9","kind":"job_failed","code":"AI_NOT_CONFIGURED"}
+{"at":"2026-11-27T09:53:15.733Z","job":"617c9957-a639-44d7-9b4f-0da11e9f60de","kind":"job_failed","code":"AI_NOT_CONFIGURED"}
+{"at":"2026-11-27T09:53:44.592Z","job":"aea64fe1-b6bf-4a61-8199-a62956a0ade5","sample_set":"night-concert","step":"media_analysis","model":"claude-opus-5-5","request_id":null,"started_at":"2026-11-27T09:53:36.043Z","latency_ms":8545,"input_tokens":7219,"output_tokens":673,"outcome":"ok"}
+{"at":"2026-11-27T09:53:44.734Z","job":"c9f77c8e-10ad-4a5e-b14f-a5ecd4e2dc1c","sample_set":"day-fair","step":"media_analysis","model":"claude-opus-5-5","request_id":null,"started_at":"2026-11-27T09:53:36.243Z","latency_ms":8490,"input_tokens":7219,"output_tokens":713,"outcome":"ok"}
+{"at":"2026-11-27T09:53:54.149Z","job":"aea64fe1-b6bf-4a61-8199-a62956a0ade5","sample_set":"night-concert","step":"storyboard","model":"claude-opus-5-5","request_id":null,"started_at":"2026-11-27T09:53:44.593Z","latency_ms":9554,"input_tokens":2622,"output_tokens":814,"outcome":"ok"}
+{"at":"2026-11-27T09:53:55.548Z","job":"c9f77c8e-10ad-4a5e-b14f-a5ecd4e2dc1c","sample_set":"day-fair","step":"storyboard","model":"claude-opus-5-5","request_id":null,"started_at":"2026-11-27T09:53:44.736Z","latency_ms":10812,"input_tokens":2663,"output_tokens":945,"outcome":"ok"}
+{"at":"2026-11-27T09:54:11.095Z","job":"aea64fe1-b6bf-4a61-8199-a62956a0ade5","sample_set":"night-concert","kind":"render_done","seconds":23,"bytes":554691,"plan_source":"claude"}
+{"at":"2026-11-27T09:54:20.171Z","job":"c9f77c8e-10ad-4a5e-b14f-a5ecd4e2dc1c","sample_set":"day-fair","kind":"render_done","seconds":30,"bytes":829726,"plan_source":"claude"}
+{"at":"2026-11-27T09:56:39.985Z","job":"171095ce-2c30-44c8-8d6f-0410f6513f21","sample_set":null,"step":"media_analysis","model":"claude-opus-5-5","request_id":"msg_011ChTEUisMZfgkowYoq9p66","started_at":"2026-11-27T09:56:32.124Z","latency_ms":7857,"input_tokens":5226,"output_tokens":686,"outcome":"ok"}
+{"at":"2026-11-27T09:56:48.939Z","job":"171095ce-2c30-44c8-8d6f-0410f6513f21","sample_set":null,"step":"storyboard","model":"claude-opus-5-5","request_id":"msg_011ChTEVJ4ddA8t4s7VLdcRL","started_at":"2026-11-27T09:56:39.988Z","latency_ms":8946,"input_tokens":2628,"output_tokens":929,"outcome":"ok"}
+{"at":"2026-11-27T09:57:12.168Z","job":"171095ce-2c30-44c8-8d6f-0410f6513f21","sample_set":null,"kind":"render_done","seconds":29,"bytes":1488956,"plan_source":"claude"}

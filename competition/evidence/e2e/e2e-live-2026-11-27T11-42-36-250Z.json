@@ -1,0 +1,135 @@
+{
+  "base": "http://localhost:3100",
+  "started_at": "2026-11-27T11:42:36.250Z",
+  "steps": [
+    {
+      "compdf": [
+        {
+          "op": "documentParsing",
+          "outcome": "ok",
+          "task": "d488bb2d-f91c-455d-99c1-aa0644bdab6e"
+        }
+      ],
+      "ai": [
+        {
+          "model": "claude-opus-5-5",
+          "outcome": "error",
+          "id": null
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "outcome": "error",
+          "id": null
+        }
+      ],
+      "name": "doc B processed via ComPDF + AI",
+      "ok": false
+    },
+    {
+      "rights": {},
+      "gate": {
+        "open": true,
+        "photos": true,
+        "videos": true,
+        "download": true
+      },
+      "name": "doc B: unknown rights cannot be force-enabled; studio closed",
+      "ok": false
+    },
+    {
+      "compdf": [
+        {
+          "op": "documentParsing",
+          "outcome": "error",
+          "task": null
+        }
+      ],
+      "ai": [],
+      "rights": {},
+      "checks": [],
+      "name": "doc A processed via ComPDF + AI",
+      "ok": false
+    },
+    {
+      "name": "doc A: conflict and pending approval flagged",
+      "ok": false
+    },
+    {
+      "gate": {
+        "open": true,
+        "photos": true,
+        "videos": true,
+        "download": true
+      },
+      "name": "doc A without acknowledgement stays pending_signature (studio closed)",
+      "ok": false
+    },
+    {
+      "event_name": "MEmory 現場記憶示範",
+      "dates": [
+        null,
+        null
+      ],
+      "venue": null,
+      "window": [
+        null,
+        null
+      ],
+      "permissions": {
+        "attendee_photos": true,
+        "attendee_videos": true,
+        "personal_download": true,
+        "public_sharing": false,
+        "commercial_use": false,
+        "official_assets": false
+      },
+      "gate": {
+        "open": true,
+        "photos": true,
+        "videos": true,
+        "download": true
+      },
+      "name": "doc A imported; studio shows document-derived event",
+      "ok": false
+    },
+    {
+      "noConsent": {
+        "code": "CONSENT_REQUIRED"
+      },
+      "bad": {
+        "code": "TOO_FEW_FILES"
+      },
+      "name": "invalid inputs rejected",
+      "ok": true
+    },
+    {
+      "event_name": "MEmory 現場記憶示範",
+      "media_types": [
+        "photo",
+        "photo",
+        "photo",
+        "video"
+      ],
+      "plan_source": null,
+      "ai": [
+        {
+          "step": "media_analysis",
+          "model": "claude-opus-5-5",
+          "outcome": "error",
+          "id": null
+        },
+        {
+          "step": "media_analysis",
+          "model": "claude-sonnet-5-5",
+          "outcome": "error",
+          "id": null
+        }
+      ],
+      "download_bytes": 0,
+      "name": "studio job under document policy renders and downloads",
+      "ok": false
+    }
+  ],
+  "finished_at": "2026-11-27T11:44:07.788Z",
+  "passed": false
+}

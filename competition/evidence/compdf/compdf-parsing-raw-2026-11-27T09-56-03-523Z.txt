@@ -1,0 +1,1751 @@
+{
+    "result": {
+        "pages": [
+            {
+                "angle": 0,
+                "page_id": 1,
+                "image_id": "",
+                "height": 1684,
+                "width": 1191,
+                "durations": 0.004954695701599121,
+                "structured": [
+                    {
+                        "pos": [
+                            75,
+                            35,
+                            585,
+                            35,
+                            585,
+                            61,
+                            75,
+                            61
+                        ],
+                        "id": 0,
+                        "content": [
+                            0
+                        ],
+                        "text": "測試文件 TEST ONLY — 虛構活動，僅供 MEMory 競賽開發測試",
+                        "type": "header",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            125,
+                            134,
+                            982,
+                            134,
+                            982,
+                            175,
+                            125,
+                            175
+                        ],
+                        "id": 1,
+                        "content": [
+                            1
+                        ],
+                        "text": "# 「城市夜光音樂節 2026」 MEMory 合作提案暨內容授權書",
+                        "type": "doc_title",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            106,
+                            197,
+                            579,
+                            197,
+                            579,
+                            224,
+                            106,
+                            224
+                        ],
+                        "id": 2,
+                        "content": [
+                            2
+                        ],
+                        "text": "文件編號：MEM-TEST-2026-001 版本：v0.9 草稿",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            108,
+                            251,
+                            273,
+                            251,
+                            273,
+                            283,
+                            108,
+                            283
+                        ],
+                        "id": 3,
+                        "content": [
+                            3
+                        ],
+                        "text": "## 一、活動資訊",
+                        "type": "paragraph_title",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            106,
+                            297,
+                            725,
+                            297,
+                            725,
+                            324,
+                            106,
+                            324
+                        ],
+                        "id": 4,
+                        "content": [
+                            4
+                        ],
+                        "text": "活動名稱：城市夜光音樂節 2026 (City Glow Night Festival 2026)",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            107,
+                            331,
+                            461,
+                            331,
+                            461,
+                            358,
+                            107,
+                            358
+                        ],
+                        "id": 5,
+                        "content": [
+                            5
+                        ],
+                        "text": "主辦單位：夜光文化有限公司（虛構）",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            106,
+                            364,
+                            811,
+                            364,
+                            811,
+                            392,
+                            106,
+                            392
+                        ],
+                        "id": 6,
+                        "content": [
+                            6
+                        ],
+                        "text": "活動日期：2026年12月5日（星期六）至2026年12月6日（星期日）",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            106,
+                            398,
+                            461,
+                            398,
+                            461,
+                            426,
+                            106,
+                            426
+                        ],
+                        "id": 7,
+                        "content": [
+                            7
+                        ],
+                        "text": "地點：台北河岸音樂廣場（虛構場地）",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            106,
+                            432,
+                            1083,
+                            432,
+                            1083,
+                            495,
+                            106,
+                            495
+                        ],
+                        "id": 8,
+                        "content": [
+                            8
+                        ],
+                        "text": "活動說明：兩天的戶外夜間音樂節，包含主舞台演出、燈光裝置與市集。主辦方希望讓參加者用自己拍的照片與影片，生成個人化的記憶短片作為紀念。",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            107,
+                            520,
+                            271,
+                            520,
+                            271,
+                            554,
+                            107,
+                            554
+                        ],
+                        "id": 9,
+                        "content": [
+                            9
+                        ],
+                        "text": "## 二、活動時程",
+                        "type": "paragraph_title",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            427,
+                            565,
+                            764,
+                            565,
+                            764,
+                            781,
+                            427,
+                            781
+                        ],
+                        "id": 10,
+                        "content": [
+                            10
+                        ],
+                        "text": "\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>時間</td><td style='text-align: center; word-wrap: break-word;'>內容</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>12/5 17:00</td><td style='text-align: center; word-wrap: break-word;'>開放入場、市集開始</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>12/5 19:00</td><td style='text-align: center; word-wrap: break-word;'>主舞台演出</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>12/5 21:30</td><td style='text-align: center; word-wrap: break-word;'>燈光裝置秀</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>12/6 16:00</td><td style='text-align: center; word-wrap: break-word;'>日間市集</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>12/6 20:00</td><td style='text-align: center; word-wrap: break-word;'>閉幕演出</td></tr></table>",
+                        "type": "table",
+                        "outline_level": -1,
+                        "rows": 6,
+                        "cols": 2,
+                        "sub_type": "bordered"
+                    },
+                    {
+                        "pos": [
+                            107,
+                            803,
+                            325,
+                            803,
+                            325,
+                            835,
+                            107,
+                            835
+                        ],
+                        "id": 11,
+                        "content": [
+                            11
+                        ],
+                        "text": "## 三、內容使用授權",
+                        "type": "paragraph_title",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            106,
+                            849,
+                            815,
+                            849,
+                            815,
+                            876,
+                            106,
+                            876
+                        ],
+                        "id": 12,
+                        "content": [
+                            12
+                        ],
+                        "text": "3.1 參加者於活動現場自行拍攝之照片，得用於 MEMORY 生成個人記憶短片。",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            107,
+                            883,
+                            997,
+                            883,
+                            997,
+                            910,
+                            107,
+                            910
+                        ],
+                        "id": 13,
+                        "content": [
+                            13
+                        ],
+                        "text": "3.2 參加者自行拍攝之影片，得用於生成個人記憶短片；惟主舞台演出畫面每段不得超過 15 秒。",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            106,
+                            917,
+                            667,
+                            917,
+                            667,
+                            944,
+                            106,
+                            944
+                        ],
+                        "id": 14,
+                        "content": [
+                            14
+                        ],
+                        "text": "3.3 參加者得下載其個人記憶短片，供個人非商業保存使用。",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            107,
+                            951,
+                            834,
+                            951,
+                            834,
+                            978,
+                            107,
+                            978
+                        ],
+                        "id": 15,
+                        "content": [
+                            15
+                        ],
+                        "text": "3.4 生成之短片如欲公開分享於社群平台，原則上須另行取得主辦方書面同意。",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            108,
+                            985,
+                            477,
+                            985,
+                            477,
+                            1012,
+                            108,
+                            1012
+                        ],
+                        "id": 16,
+                        "content": [
+                            16
+                        ],
+                        "text": "3.5 任何商業用途均不在本授權範圍內。",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            109,
+                            1039,
+                            325,
+                            1039,
+                            325,
+                            1071,
+                            109,
+                            1071
+                        ],
+                        "id": 17,
+                        "content": [
+                            17
+                        ],
+                        "text": "## 四、生成服務期間",
+                        "type": "paragraph_title",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            107,
+                            1085,
+                            1022,
+                            1085,
+                            1022,
+                            1113,
+                            107,
+                            1113
+                        ],
+                        "id": 18,
+                        "content": [
+                            18
+                        ],
+                        "text": "4.1 MEMory 生成服務開放期間為 2026 年 11 月 25 日起至 2026 年 12 月 31 日止（含測試期）。",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            1049,
+                            1627,
+                            1113,
+                            1627,
+                            1113,
+                            1650,
+                            1049,
+                            1650
+                        ],
+                        "id": 19,
+                        "content": [
+                            19
+                        ],
+                        "text": "第1頁",
+                        "type": "number",
+                        "outline_level": -1
+                    }
+                ],
+                "status": "Success",
+                "content": [
+                    {
+                        "id": 0,
+                        "status": 0,
+                        "pos": [
+                            75,
+                            35,
+                            585,
+                            35,
+                            585,
+                            61,
+                            75,
+                            61
+                        ],
+                        "type": "header",
+                        "text": "測試文件 TEST ONLY — 虛構活動，僅供 MEMory 競賽開發測試",
+                        "score": 0.8880361318588257,
+                        "angle": 0
+                    },
+                    {
+                        "id": 1,
+                        "status": 1,
+                        "pos": [
+                            125,
+                            134,
+                            982,
+                            134,
+                            982,
+                            175,
+                            125,
+                            175
+                        ],
+                        "type": "doc_title",
+                        "text": "# 「城市夜光音樂節 2026」 MEMory 合作提案暨內容授權書",
+                        "score": 0.9250359535217285,
+                        "angle": 0
+                    },
+                    {
+                        "id": 2,
+                        "status": 1,
+                        "pos": [
+                            106,
+                            197,
+                            579,
+                            197,
+                            579,
+                            224,
+                            106,
+                            224
+                        ],
+                        "type": "text",
+                        "text": "文件編號：MEM-TEST-2026-001 版本：v0.9 草稿",
+                        "score": 0.8606498837471008,
+                        "angle": 0
+                    },
+                    {
+                        "id": 3,
+                        "status": 1,
+                        "pos": [
+                            108,
+                            251,
+                            273,
+                            251,
+                            273,
+                            283,
+                            108,
+                            283
+                        ],
+                        "type": "paragraph_title",
+                        "text": "## 一、活動資訊",
+                        "score": 0.8637943267822266,
+                        "angle": 0
+                    },
+                    {
+                        "id": 4,
+                        "status": 1,
+                        "pos": [
+                            106,
+                            297,
+                            725,
+                            297,
+                            725,
+                            324,
+                            106,
+                            324
+                        ],
+                        "type": "text",
+                        "text": "活動名稱：城市夜光音樂節 2026 (City Glow Night Festival 2026)",
+                        "score": 0.852729082107544,
+                        "angle": 0
+                    },
+                    {
+                        "id": 5,
+                        "status": 1,
+                        "pos": [
+                            107,
+                            331,
+                            461,
+                            331,
+                            461,
+                            358,
+                            107,
+                            358
+                        ],
+                        "type": "text",
+                        "text": "主辦單位：夜光文化有限公司（虛構）",
+                        "score": 0.8462114334106445,
+                        "angle": 0
+                    },
+                    {
+                        "id": 6,
+                        "status": 1,
+                        "pos": [
+                            106,
+                            364,
+                            811,
+                            364,
+                            811,
+                            392,
+                            106,
+                            392
+                        ],
+                        "type": "text",
+                        "text": "活動日期：2026年12月5日（星期六）至2026年12月6日（星期日）",
+                        "score": 0.8370541930198669,
+                        "angle": 0
+                    },
+                    {
+                        "id": 7,
+                        "status": 1,
+                        "pos": [
+                            106,
+                            398,
+                            461,
+                            398,
+                            461,
+                            426,
+                            106,
+                            426
+                        ],
+                        "type": "text",
+                        "text": "地點：台北河岸音樂廣場（虛構場地）",
+                        "score": 0.8459407091140747,
+                        "angle": 0
+                    },
+                    {
+                        "id": 8,
+                        "status": 1,
+                        "pos": [
+                            106,
+                            432,
+                            1083,
+                            432,
+                            1083,
+                            495,
+                            106,
+                            495
+                        ],
+                        "type": "text",
+                        "text": "活動說明：兩天的戶外夜間音樂節，包含主舞台演出、燈光裝置與市集。主辦方希望讓參加者用自己拍的照片與影片，生成個人化的記憶短片作為紀念。",
+                        "score": 0.922324001789093,
+                        "angle": 0
+                    },
+                    {
+                        "id": 9,
+                        "status": 1,
+                        "pos": [
+                            107,
+                            520,
+                            271,
+                            520,
+                            271,
+                            554,
+                            107,
+                            554
+                        ],
+                        "type": "paragraph_title",
+                        "text": "## 二、活動時程",
+                        "score": 0.8827614188194275,
+                        "angle": 0
+                    },
+                    {
+                        "id": 10,
+                        "status": 1,
+                        "pos": [
+                            427,
+                            565,
+                            764,
+                            565,
+                            764,
+                            781,
+                            427,
+                            781
+                        ],
+                        "type": "table",
+                        "text": "\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>時間</td><td style='text-align: center; word-wrap: break-word;'>內容</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>12/5 17:00</td><td style='text-align: center; word-wrap: break-word;'>開放入場、市集開始</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>12/5 19:00</td><td style='text-align: center; word-wrap: break-word;'>主舞台演出</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>12/5 21:30</td><td style='text-align: center; word-wrap: break-word;'>燈光裝置秀</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>12/6 16:00</td><td style='text-align: center; word-wrap: break-word;'>日間市集</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>12/6 20:00</td><td style='text-align: center; word-wrap: break-word;'>閉幕演出</td></tr></table>"
+                    },
+                    {
+                        "id": 11,
+                        "status": 1,
+                        "pos": [
+                            107,
+                            803,
+                            325,
+                            803,
+                            325,
+                            835,
+                            107,
+                            835
+                        ],
+                        "type": "paragraph_title",
+                        "text": "## 三、內容使用授權",
+                        "score": 0.8804065585136414,
+                        "angle": 0
+                    },
+                    {
+                        "id": 12,
+                        "status": 1,
+                        "pos": [
+                            106,
+                            849,
+                            815,
+                            849,
+                            815,
+                            876,
+                            106,
+                            876
+                        ],
+                        "type": "text",
+                        "text": "3.1 參加者於活動現場自行拍攝之照片，得用於 MEMORY 生成個人記憶短片。",
+                        "score": 0.8500692248344421,
+                        "angle": 0
+                    },
+                    {
+                        "id": 13,
+                        "status": 1,
+                        "pos": [
+                            107,
+                            883,
+                            997,
+                            883,
+                            997,
+                            910,
+                            107,
+                            910
+                        ],
+                        "type": "text",
+                        "text": "3.2 參加者自行拍攝之影片，得用於生成個人記憶短片；惟主舞台演出畫面每段不得超過 15 秒。",
+                        "score": 0.8387730717658997,
+                        "angle": 0
+                    },
+                    {
+                        "id": 14,
+                        "status": 1,
+                        "pos": [
+                            106,
+                            917,
+                            667,
+                            917,
+                            667,
+                            944,
+                            106,
+                            944
+                        ],
+                        "type": "text",
+                        "text": "3.3 參加者得下載其個人記憶短片，供個人非商業保存使用。",
+                        "score": 0.8439458012580872,
+                        "angle": 0
+                    },
+                    {
+                        "id": 15,
+                        "status": 1,
+                        "pos": [
+                            107,
+                            951,
+                            834,
+                            951,
+                            834,
+                            978,
+                            107,
+                            978
+                        ],
+                        "type": "text",
+                        "text": "3.4 生成之短片如欲公開分享於社群平台，原則上須另行取得主辦方書面同意。",
+                        "score": 0.8504674434661865,
+                        "angle": 0
+                    },
+                    {
+                        "id": 16,
+                        "status": 1,
+                        "pos": [
+                            108,
+                            985,
+                            477,
+                            985,
+                            477,
+                            1012,
+                            108,
+                            1012
+                        ],
+                        "type": "text",
+                        "text": "3.5 任何商業用途均不在本授權範圍內。",
+                        "score": 0.8580873012542725,
+                        "angle": 0
+                    },
+                    {
+                        "id": 17,
+                        "status": 1,
+                        "pos": [
+                            109,
+                            1039,
+                            325,
+                            1039,
+                            325,
+                            1071,
+                            109,
+                            1071
+                        ],
+                        "type": "paragraph_title",
+                        "text": "## 四、生成服務期間",
+                        "score": 0.886193573474884,
+                        "angle": 0
+                    },
+                    {
+                        "id": 18,
+                        "status": 1,
+                        "pos": [
+                            107,
+                            1085,
+                            1022,
+                            1085,
+                            1022,
+                            1113,
+                            107,
+                            1113
+                        ],
+                        "type": "text",
+                        "text": "4.1 MEMory 生成服務開放期間為 2026 年 11 月 25 日起至 2026 年 12 月 31 日止（含測試期）。",
+                        "score": 0.853333055973053,
+                        "angle": 0
+                    },
+                    {
+                        "id": 19,
+                        "status": 0,
+                        "pos": [
+                            1049,
+                            1627,
+                            1113,
+                            1627,
+                            1113,
+                            1650,
+                            1049,
+                            1650
+                        ],
+                        "type": "number",
+                        "text": "第1頁",
+                        "score": 0.8177645206451416,
+                        "angle": 0
+                    }
+                ]
+            },
+            {
+                "angle": 0,
+                "page_id": 2,
+                "image_id": "",
+                "height": 1684,
+                "width": 1191,
+                "durations": 0.004954695701599121,
+                "structured": [
+                    {
+                        "pos": [
+                            75,
+                            36,
+                            584,
+                            36,
+                            584,
+                            61,
+                            75,
+                            61
+                        ],
+                        "id": 0,
+                        "content": [
+                            20
+                        ],
+                        "text": "測試文件 TEST ONLY — 虛構活動，僅供 MEMory 競賽開發測試",
+                        "type": "header",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            105,
+                            134,
+                            378,
+                            134,
+                            378,
+                            165,
+                            105,
+                            165
+                        ],
+                        "id": 1,
+                        "content": [
+                            21
+                        ],
+                        "text": "#### 附件一：服務條件補充",
+                        "type": "paragraph_title",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            105,
+                            178,
+                            761,
+                            178,
+                            761,
+                            206,
+                            105,
+                            206
+                        ],
+                        "id": 2,
+                        "content": [
+                            22
+                        ],
+                        "text": "A1. 為控制成本，記憶短片生成服務之截止日為2026年12月20日。",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            105,
+                            213,
+                            695,
+                            213,
+                            695,
+                            241,
+                            105,
+                            241
+                        ],
+                        "id": 3,
+                        "content": [
+                            23
+                        ],
+                        "text": "A2. 主辦方官方 Logo、官方攝影及音樂之使用方式，雙方另議。",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            107,
+                            267,
+                            221,
+                            267,
+                            221,
+                            299,
+                            107,
+                            299
+                        ],
+                        "id": 4,
+                        "content": [
+                            24
+                        ],
+                        "text": "## 五、簽署",
+                        "type": "paragraph_title",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            106,
+                            312,
+                            729,
+                            312,
+                            729,
+                            342,
+                            106,
+                            342
+                        ],
+                        "id": 5,
+                        "content": [
+                            25
+                        ],
+                        "text": "甲方（主辦單位）代表人簽名：___ 日期：___",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            106,
+                            347,
+                            720,
+                            347,
+                            720,
+                            376,
+                            106,
+                            376
+                        ],
+                        "id": 6,
+                        "content": [
+                            26
+                        ],
+                        "text": "乙方（MEmory）代表人簽名：___ 日期：___",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            106,
+                            381,
+                            419,
+                            381,
+                            419,
+                            409,
+                            106,
+                            409
+                        ],
+                        "id": 7,
+                        "content": [
+                            27
+                        ],
+                        "text": "本文件為草稿，雙方簽署後生效。",
+                        "type": "text",
+                        "outline_level": -1
+                    },
+                    {
+                        "pos": [
+                            1049,
+                            1626,
+                            1113,
+                            1626,
+                            1113,
+                            1650,
+                            1049,
+                            1650
+                        ],
+                        "id": 8,
+                        "content": [
+                            28
+                        ],
+                        "text": "第2頁",
+                        "type": "number",
+                        "outline_level": -1
+                    }
+                ],
+                "status": "Success",
+                "content": [
+                    {
+                        "id": 0,
+                        "status": 0,
+                        "pos": [
+                            75,
+                            36,
+                            584,
+                            36,
+                            584,
+                            61,
+                            75,
+                            61
+                        ],
+                        "type": "header",
+                        "text": "測試文件 TEST ONLY — 虛構活動，僅供 MEMory 競賽開發測試",
+                        "score": 0.8548109531402588,
+                        "angle": 0
+                    },
+                    {
+                        "id": 1,
+                        "status": 1,
+                        "pos": [
+                            105,
+                            134,
+                            378,
+                            134,
+                            378,
+                            165,
+                            105,
+                            165
+                        ],
+                        "type": "paragraph_title",
+                        "text": "#### 附件一：服務條件補充",
+                        "score": 0.8788604736328125,
+                        "angle": 0
+                    },
+                    {
+                        "id": 2,
+                        "status": 1,
+                        "pos": [
+                            105,
+                            178,
+                            761,
+                            178,
+                            761,
+                            206,
+                            105,
+                            206
+                        ],
+                        "type": "text",
+                        "text": "A1. 為控制成本，記憶短片生成服務之截止日為2026年12月20日。",
+                        "score": 0.8505635261535645,
+                        "angle": 0
+                    },
+                    {
+                        "id": 3,
+                        "status": 1,
+                        "pos": [
+                            105,
+                            213,
+                            695,
+                            213,
+                            695,
+                            241,
+                            105,
+                            241
+                        ],
+                        "type": "text",
+                        "text": "A2. 主辦方官方 Logo、官方攝影及音樂之使用方式，雙方另議。",
+                        "score": 0.8414967656135559,
+                        "angle": 0
+                    },
+                    {
+                        "id": 4,
+                        "status": 1,
+                        "pos": [
+                            107,
+                            267,
+                            221,
+                            267,
+                            221,
+                            299,
+                            107,
+                            299
+                        ],
+                        "type": "paragraph_title",
+                        "text": "## 五、簽署",
+                        "score": 0.8639552593231201,
+                        "angle": 0
+                    },
+                    {
+                        "id": 5,
+                        "status": 1,
+                        "pos": [
+                            106,
+                            312,
+                            729,
+                            312,
+                            729,
+                            342,
+                            106,
+                            342
+                        ],
+                        "type": "text",
+                        "text": "甲方（主辦單位）代表人簽名：___ 日期：___",
+                        "score": 0.8308126330375671,
+                        "angle": 0
+                    },
+                    {
+                        "id": 6,
+                        "status": 1,
+                        "pos": [
+                            106,
+                            347,
+                            720,
+                            347,
+                            720,
+                            376,
+                            106,
+                            376
+                        ],
+                        "type": "text",
+                        "text": "乙方（MEmory）代表人簽名：___ 日期：___",
+                        "score": 0.8073739409446716,
+                        "angle": 0
+                    },
+                    {
+                        "id": 7,
+                        "status": 1,
+                        "pos": [
+                            106,
+                            381,
+                            419,
+                            381,
+                            419,
+                            409,
+                            106,
+                            409
+                        ],
+                        "type": "text",
+                        "text": "本文件為草稿，雙方簽署後生效。",
+                        "score": 0.8174639940261841,
+                        "angle": 0
+                    },
+                    {
+                        "id": 8,
+                        "status": 0,
+                        "pos": [
+                            1049,
+                            1626,
+                            1113,
+                            1626,
+                            1113,
+                            1650,
+                            1049,
+                            1650
+                        ],
+                        "type": "number",
+                        "text": "第2頁",
+                        "score": 0.8221599459648132,
+                        "angle": 0
+                    }
+                ]
+            }
+        ],
+        "detail": [
+            {
+                "paragraph_id": 1,
+                "page_id": 1,
+                "status": 0,
+                "type": "paragraph",
+                "position": [
+                    75,
+                    35,
+                    585,
+                    35,
+                    585,
+                    61,
+                    75,
+                    61
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "header",
+                "content": 0,
+                "text": "測試文件 TEST ONLY — 虛構活動，僅供 MEMory 競賽開發測試"
+            },
+            {
+                "paragraph_id": 2,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    125,
+                    134,
+                    982,
+                    134,
+                    982,
+                    175,
+                    125,
+                    175
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "doc_title",
+                "content": 0,
+                "text": "# 「城市夜光音樂節 2026」 MEMory 合作提案暨內容授權書"
+            },
+            {
+                "paragraph_id": 3,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    106,
+                    197,
+                    579,
+                    197,
+                    579,
+                    224,
+                    106,
+                    224
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "文件編號：MEM-TEST-2026-001 版本：v0.9 草稿"
+            },
+            {
+                "paragraph_id": 4,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    108,
+                    251,
+                    273,
+                    251,
+                    273,
+                    283,
+                    108,
+                    283
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "paragraph_title",
+                "content": 0,
+                "text": "## 一、活動資訊"
+            },
+            {
+                "paragraph_id": 5,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    106,
+                    297,
+                    725,
+                    297,
+                    725,
+                    324,
+                    106,
+                    324
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "活動名稱：城市夜光音樂節 2026 (City Glow Night Festival 2026)"
+            },
+            {
+                "paragraph_id": 6,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    107,
+                    331,
+                    461,
+                    331,
+                    461,
+                    358,
+                    107,
+                    358
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "主辦單位：夜光文化有限公司（虛構）"
+            },
+            {
+                "paragraph_id": 7,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    106,
+                    364,
+                    811,
+                    364,
+                    811,
+                    392,
+                    106,
+                    392
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "活動日期：2026年12月5日（星期六）至2026年12月6日（星期日）"
+            },
+            {
+                "paragraph_id": 8,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    106,
+                    398,
+                    461,
+                    398,
+                    461,
+                    426,
+                    106,
+                    426
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "地點：台北河岸音樂廣場（虛構場地）"
+            },
+            {
+                "paragraph_id": 9,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    106,
+                    432,
+                    1083,
+                    432,
+                    1083,
+                    495,
+                    106,
+                    495
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "活動說明：兩天的戶外夜間音樂節，包含主舞台演出、燈光裝置與市集。主辦方希望讓參加者用自己拍的照片與影片，生成個人化的記憶短片作為紀念。"
+            },
+            {
+                "paragraph_id": 10,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    107,
+                    520,
+                    271,
+                    520,
+                    271,
+                    554,
+                    107,
+                    554
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "paragraph_title",
+                "content": 0,
+                "text": "## 二、活動時程"
+            },
+            {
+                "paragraph_id": 11,
+                "page_id": 1,
+                "status": 1,
+                "caption_id": 11,
+                "type": "table",
+                "position": [
+                    427,
+                    565,
+                    764,
+                    565,
+                    764,
+                    781,
+                    427,
+                    781
+                ],
+                "outline_level": -1,
+                "sub_type": "bordered",
+                "content": 0,
+                "text": "\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>時間</td><td style='text-align: center; word-wrap: break-word;'>內容</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>12/5 17:00</td><td style='text-align: center; word-wrap: break-word;'>開放入場、市集開始</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>12/5 19:00</td><td style='text-align: center; word-wrap: break-word;'>主舞台演出</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>12/5 21:30</td><td style='text-align: center; word-wrap: break-word;'>燈光裝置秀</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>12/6 16:00</td><td style='text-align: center; word-wrap: break-word;'>日間市集</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>12/6 20:00</td><td style='text-align: center; word-wrap: break-word;'>閉幕演出</td></tr></table>"
+            },
+            {
+                "paragraph_id": 12,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    107,
+                    803,
+                    325,
+                    803,
+                    325,
+                    835,
+                    107,
+                    835
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "paragraph_title",
+                "content": 0,
+                "text": "## 三、內容使用授權"
+            },
+            {
+                "paragraph_id": 13,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    106,
+                    849,
+                    815,
+                    849,
+                    815,
+                    876,
+                    106,
+                    876
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "3.1 參加者於活動現場自行拍攝之照片，得用於 MEMORY 生成個人記憶短片。"
+            },
+            {
+                "paragraph_id": 14,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    107,
+                    883,
+                    997,
+                    883,
+                    997,
+                    910,
+                    107,
+                    910
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "3.2 參加者自行拍攝之影片，得用於生成個人記憶短片；惟主舞台演出畫面每段不得超過 15 秒。"
+            },
+            {
+                "paragraph_id": 15,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    106,
+                    917,
+                    667,
+                    917,
+                    667,
+                    944,
+                    106,
+                    944
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "3.3 參加者得下載其個人記憶短片，供個人非商業保存使用。"
+            },
+            {
+                "paragraph_id": 16,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    107,
+                    951,
+                    834,
+                    951,
+                    834,
+                    978,
+                    107,
+                    978
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "3.4 生成之短片如欲公開分享於社群平台，原則上須另行取得主辦方書面同意。"
+            },
+            {
+                "paragraph_id": 17,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    108,
+                    985,
+                    477,
+                    985,
+                    477,
+                    1012,
+                    108,
+                    1012
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "3.5 任何商業用途均不在本授權範圍內。"
+            },
+            {
+                "paragraph_id": 18,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    109,
+                    1039,
+                    325,
+                    1039,
+                    325,
+                    1071,
+                    109,
+                    1071
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "paragraph_title",
+                "content": 0,
+                "text": "## 四、生成服務期間"
+            },
+            {
+                "paragraph_id": 19,
+                "page_id": 1,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    107,
+                    1085,
+                    1022,
+                    1085,
+                    1022,
+                    1113,
+                    107,
+                    1113
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "4.1 MEMory 生成服務開放期間為 2026 年 11 月 25 日起至 2026 年 12 月 31 日止（含測試期）。"
+            },
+            {
+                "paragraph_id": 20,
+                "page_id": 1,
+                "status": 0,
+                "type": "paragraph",
+                "position": [
+                    1049,
+                    1627,
+                    1113,
+                    1627,
+                    1113,
+                    1650,
+                    1049,
+                    1650
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "number",
+                "content": 0,
+                "text": "第1頁"
+            },
+            {
+                "paragraph_id": 1,
+                "page_id": 2,
+                "status": 0,
+                "type": "paragraph",
+                "position": [
+                    75,
+                    36,
+                    584,
+                    36,
+                    584,
+                    61,
+                    75,
+                    61
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "header",
+                "content": 0,
+                "text": "測試文件 TEST ONLY — 虛構活動，僅供 MEMory 競賽開發測試"
+            },
+            {
+                "paragraph_id": 2,
+                "page_id": 2,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    105,
+                    134,
+                    378,
+                    134,
+                    378,
+                    165,
+                    105,
+                    165
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "paragraph_title",
+                "content": 0,
+                "text": "#### 附件一：服務條件補充"
+            },
+            {
+                "paragraph_id": 3,
+                "page_id": 2,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    105,
+                    178,
+                    761,
+                    178,
+                    761,
+                    206,
+                    105,
+                    206
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "A1. 為控制成本，記憶短片生成服務之截止日為2026年12月20日。"
+            },
+            {
+                "paragraph_id": 4,
+                "page_id": 2,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    105,
+                    213,
+                    695,
+                    213,
+                    695,
+                    241,
+                    105,
+                    241
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "A2. 主辦方官方 Logo、官方攝影及音樂之使用方式，雙方另議。"
+            },
+            {
+                "paragraph_id": 5,
+                "page_id": 2,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    107,
+                    267,
+                    221,
+                    267,
+                    221,
+                    299,
+                    107,
+                    299
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "paragraph_title",
+                "content": 0,
+                "text": "## 五、簽署"
+            },
+            {
+                "paragraph_id": 6,
+                "page_id": 2,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    106,
+                    312,
+                    729,
+                    312,
+                    729,
+                    342,
+                    106,
+                    342
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "甲方（主辦單位）代表人簽名：___ 日期：___"
+            },
+            {
+                "paragraph_id": 7,
+                "page_id": 2,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    106,
+                    347,
+                    720,
+                    347,
+                    720,
+                    376,
+                    106,
+                    376
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "乙方（MEmory）代表人簽名：___ 日期：___"
+            },
+            {
+                "paragraph_id": 8,
+                "page_id": 2,
+                "status": 1,
+                "type": "paragraph",
+                "position": [
+                    106,
+                    381,
+                    419,
+                    381,
+                    419,
+                    409,
+                    106,
+                    409
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "text",
+                "content": 0,
+                "text": "本文件為草稿，雙方簽署後生效。"
+            },
+            {
+                "paragraph_id": 9,
+                "page_id": 2,
+                "status": 0,
+                "type": "paragraph",
+                "position": [
+                    1049,
+                    1626,
+                    1113,
+                    1626,
+                    1113,
+                    1650,
+                    1049,
+                    1650
+                ],
+                "tags": [],
+                "outline_level": -1,
+                "sub_type": "number",
+                "content": 0,
+                "text": "第2頁"
+            }
+        ],
+        "total_count": 2,
+        "valid_page_number": 2,
+        "total_page_number": 2,
+        "catalog": {},
+        "excel_base64": "",
+        "success_count": 2,
+        "markdown": "# 「城市夜光音樂節 2026」 MEMory 合作提案暨內容授權書\n\n文件編號：MEM-TEST-2026-001 版本：v0.9 草稿\n\n## 一、活動資訊\n\n活動名稱：城市夜光音樂節 2026 (City Glow Night Festival 2026)\n\n主辦單位：夜光文化有限公司（虛構）\n\n活動日期：2026年12月5日（星期六）至2026年12月6日（星期日）\n\n地點：台北河岸音樂廣場（虛構場地）\n\n活動說明：兩天的戶外夜間音樂節，包含主舞台演出、燈光裝置與市集。主辦方希望讓參加者用自己拍的照片與影片，生成個人化的記憶短片作為紀念。\n\n## 二、活動時程\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>時間</td><td style='text-align: center; word-wrap: break-word;'>內容</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>12/5 17:00</td><td style='text-align: center; word-wrap: break-word;'>開放入場、市集開始</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>12/5 19:00</td><td style='text-align: center; word-wrap: break-word;'>主舞台演出</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>12/5 21:30</td><td style='text-align: center; word-wrap: break-word;'>燈光裝置秀</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>12/6 16:00</td><td style='text-align: center; word-wrap: break-word;'>日間市集</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>12/6 20:00</td><td style='text-align: center; word-wrap: break-word;'>閉幕演出</td></tr></table>\n\n## 三、內容使用授權\n\n3.1 參加者於活動現場自行拍攝之照片，得用於 MEMORY 生成個人記憶短片。\n\n3.2 參加者自行拍攝之影片，得用於生成個人記憶短片；惟主舞台演出畫面每段不得超過 15 秒。\n\n3.3 參加者得下載其個人記憶短片，供個人非商業保存使用。\n\n3.4 生成之短片如欲公開分享於社群平台，原則上須另行取得主辦方書面同意。\n\n3.5 任何商業用途均不在本授權範圍內。\n\n## 四、生成服務期間\n\n4.1 MEMory 生成服務開放期間為 2026 年 11 月 25 日起至 2026 年 12 月 31 日止（含測試期）。\n\n\n#### 附件一：服務條件補充\n\nA1. 為控制成本，記憶短片生成服務之截止日為2026年12月20日。\n\nA2. 主辦方官方 Logo、官方攝影及音樂之使用方式，雙方另議。\n\n## 五、簽署\n\n甲方（主辦單位）代表人簽名：___ 日期：___\n\n乙方（MEmory）代表人簽名：___ 日期：___\n\n本文件為草稿，雙方簽署後生效。\n\n"
+    },
+    "x_request_id": "b79b18cb32db45ceb7b7a0fbcc6261a2",
+    "file_type": "PDF",
+    "metrics": [
+        {
+            "angle": 0,
+            "status": "Success",
+            "dpi": 144,
+            "page_id": 1,
+            "image_id": "",
+            "duration": 0.004954695701599121,
+            "page_image_height": 1684,
+            "page_image_width": 1191
+        },
+        {
+            "angle": 0,
+            "status": "Success",
+            "dpi": 144,
+            "page_id": 2,
+            "image_id": "",
+            "duration": 0.004954695701599121,
+            "page_image_height": 1684,
+            "page_image_width": 1191
+        }
+    ],
+    "message": "Success",
+    "code": 200,
+    "image_process": []
+}
