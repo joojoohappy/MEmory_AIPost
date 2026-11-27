@@ -11,6 +11,12 @@
 
 <sub>▲ 先前實際產生的範例短片畫格（使用合成的「夜間演唱會」範例素材，經 Claude 分析、FFmpeg 合成）</sub>
 
+
+
+https://github.com/user-attachments/assets/cba1a639-8154-4cdd-9cab-aff5c5a19550
+
+
+
 <br><br>
 
 <a href="https://memory-aipost.up.railway.app/studio"><img src="https://img.shields.io/badge/%E2%96%B6%20%E7%AB%8B%E5%8D%B3%E9%AB%94%E9%A9%97%20MEmory-memory--aipost.up.railway.app-E8B04B?style=for-the-badge&labelColor=1a1a1a" alt="立即體驗 MEmory" height="44"></a>
